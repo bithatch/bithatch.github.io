@@ -1,25 +1,136 @@
 <html>
 <head>
-<link rel="stylesheet"
-	href="bootstrap.min.css"
+<link rel="stylesheet" href="bootstrap.min.css"
 	integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
 	crossorigin="anonymous">
+<link rel="stylesheet" href="cyborg.css">
+<link rel="stylesheet" href="bithatch.css">
 <link rel="stylesheet"
-	href="cyborg.css">
-<link rel="stylesheet"
-	href="bithatch.css">
+	href="font-awesome-4.7.0/css/font-awesome.min.css">
+<title>Snake - A tool for Razer devices on Linux</title>
 </head>
 <body>
-	<h3 class="snake-title">Snake</h3>
-	<img align="left" src="razer-color-128.png"/>
-	<p>A stylised graphical tool for configuring and controlling Razer
-		devices on Linux</p>
-	<h4>Downloads</h4>
-	<ul>
-		<li><a href="downloads/snake/stable/snake-installer.sh">Installer
-				- Stable</a></li>
-		<li><a href="downloads/snake/snapshot/snake-installer.sh">Installer
-				- Snapshot (testing versions, will become next stable)</a></li>
-	</ul>
+	<div class="float-right">
+		<a href="index.html"> <img class="bithatch-logo"
+			src="bithatch-reverse-256.png" /></a>
+	</div>
+	<h1 class="snake-title">Snake</h1>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2">
+				<img src="razer-color-128.png" />
+			</div>
+			<div class="col-md-7">
+
+				<p>A stylised tool for configuring and controlling Razer devices
+					on Linux. Snake is easily installable, self updating and covers all
+					the features currently available via the OpenRazer drivers.</p>
+				<a class="mr-1" href="https://github.com/bithatch/snake"><i
+					class="fa fa-github fa-2x"></i></a><a class="mr-1"
+					href="https://github.com/bithatch/snake/issues"><i
+					class="fa fa-bug fa-2x"></i></a>
+			</div>
+			<div class="col-md-3">
+
+				<img style="width: 192px;" src="snake-ui.png" />
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Quick Start</h3>
+				<p>If you just want to get going, and have a modern 64 bit Linux
+					distribution, try the following first.</p>
+				<pre>
+wget http://www.bithatch.co.uk/downloads/snake/snapshot/snake-installer.sh && sh snake-installer.sh &
+				<code>
+				</code>
+				</pre>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<h4>Features</h4>
+				<ul>
+					<li>Stylised user interface with animations and effects.</li>
+					<li>Simple installation, and self updating.</li>
+					<li>Supports all devices supported by OpenRazer (testing
+						required!).</li>
+					<li>Multiple concurrent devices.</li>
+					<li>Set and configure Razer effects.</li>
+					<li>Control over individual LEDs using the Matrix feature.</li>
+					<li>Battery status.</li>
+					<li>Integrated system tray icon (or indicator).</li>
+					<li>Global brightness.</li>
+					<li>Macro support (in progress).</li>
+					<li>Themes and plugins (coming soon).</li>
+				</ul>
+				<h4>Links</h4>
+				<ul>
+					<li><a href="https://openrazer.github.io/">OpenRazer</a>.
+						Provides the default driver. Check <a
+						href="https://openrazer.github.io/#devices">here</a> to see if
+						your device is supported.</li>
+					<li><a href="https://openjfx.io/">OpenJFX</a>.
+						The UI toolkit on which on which Snake is based.</li>
+					<li><a href="https://openjfx.io/">OpenJDK</a>.
+						Snake is a Java application, targeting version 15. </li>
+					<li><a href="https://polychromatic.app/">Polychromatic</a>.
+						This great front-end for OpenRazer, influenced some parts of
+						Snake.</li>
+					<li><a href="https://github.com/z3ntu/RazerGenie">RazerGenie</a>.
+						Another front-end for OpenRazer, this app fits in well with a KDE
+						desktop being based on Qt.</li>
+					<li><a href="https://github.com/z3ntu/RazerGenie">razerCommander</a>.
+						Another front-end for OpenRazer, this app fits in well with a
+						Gnome desktop being based on GTK.</li>
+					<li><a href="https://github.com/sshtools/forker/">Forker Updater</a>.
+						Provides the update system and installer for Snake.</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<h4>
+					<a name="downloads">Downloads</a>
+				</h4>
+				<h5>Self Extracting / Self Updating Installers (with runtime)</h5>
+				<ul>
+					<li><a href="downloads/snake/stable/snake-installer.sh">Installer
+							- Stable</a></li>
+					<li><a href="downloads/snake/snapshot/snake-installer.sh">Installer
+							- Snapshot (testing versions, will become next stable)</a></li>
+				</ul>
+				<h5>Self Extracting / Self Updating Installers (with no
+					runtime)</h5>
+				<p>You must have Java 15 or higher installed before
+					installation.</p>
+				<ul>
+					<li><a
+						href="downloads/snake/stable/snake-installer-no-runtime.sh">Installer
+							without Runtime - Stable</a></li>
+					<li><a
+						href="downloads/snake/snapshot/snake-installer-no-runtime.sh">Installer
+							without Runtime - Snapshot (testing versions, will become next
+							stable)</a></li>
+				</ul>
+				<h5>Distribution Packages</h5>
+				<p>You must have Java 15 or higher installed before
+					installation. Only the Snake application itself is self updating
+					using these packages, the 'bootstrap' part must</p>
+				<ul>
+					<li><a href="downloads/snake/stable/snake.deb">DEB -
+							Generic Package - Stable</a></li>
+					<li><a href="downloads/snake/stable/snake.rpm">RPM -
+							Generic Package - Stable</a></li>
+					<li><a href="downloads/snake/stable/snake.deb">DEB -
+							Generic Package - Snapshot (testing versions, will become next
+							stable)</a></li>
+					<li><a href="downloads/snake/stable/snake.rpm">RPM -
+							Generic Package - Snapshot (testing versions, will become next
+							stable)</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

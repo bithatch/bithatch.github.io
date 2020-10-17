@@ -1,16 +1,21 @@
 @font-face {
-    src: url('FROSTBITE-Narrow.ttf');
-    font-family: FROSTBITE-Narrow;
+	src: url('FROSTBITE-Narrow.ttf');
+	font-family: FROSTBITE-Narrow;
 }
 
 @font-face {
-    src: url('Roboto-Light.ttf');
-    font-family: Roboto-Light;
+	src: url('Roboto-Light.ttf');
+	font-family: Roboto-Light;
+}
+
+@font-face {
+	src: url('fontawesome-webfont.ttf');
+	font-family: Font;
 }
 
 body {
 	margin: 1em;
-    font-family: Roboto-Light;
+	font-family: Roboto-Light;
 }
 
 .bithatch-logo {
@@ -18,5 +23,6 @@ body {
 }
 
 .snake-title {
-    font-family: FROSTBITE-Narrow;
+	font-family: FROSTBITE-Narrow;
+	color: green;
 }
