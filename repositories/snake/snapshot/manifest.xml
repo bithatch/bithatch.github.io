@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration id="snake" timestamp="2020-10-17T16:43:00.195248508Z" version="1.0-SNAPSHOT-20201017174300">
+  <base path="app/business" uri="http://www.bithatch.co.uk/repositories/snake/snapshot"/>
+  <properties>
+    <property key="maven.central" value="https://repo1.maven.org/maven2"/>
+    <property key="main" value="uk.co.bithatch.snake.ui/uk.co.bithatch.snake.ui.App"/>
+  </properties>
+  <app>
+    <appFile checksum="697a0a34" execute="false" modulepath="true" path="snake-ui.jar" size="1858100" uri="app/business/snake-ui.jar" write="true"/>
+    <appFile checksum="e3754678" execute="false" modulepath="true" path="javafx-controls.jar" size="306" uri="https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/15/javafx-controls-15.jar" write="true"/>
+    <appFile checksum="2eaa6437" execute="false" modulepath="true" path="javafx-controls-linux.jar" size="2531099" uri="https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/15/javafx-controls-15-linux.jar" write="true"/>
+    <appFile checksum="c6af462a" execute="false" modulepath="true" path="javafx-graphics.jar" size="306" uri="https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/15/javafx-graphics-15.jar" write="true"/>
+    <appFile checksum="848b36d3" execute="false" modulepath="true" path="javafx-graphics-linux.jar" size="4966689" uri="https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/15/javafx-graphics-15-linux.jar" write="true"/>
+    <appFile checksum="19bd430c" execute="false" modulepath="true" path="javafx-base.jar" size="302" uri="https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/15/javafx-base-15.jar" write="true"/>
+    <appFile checksum="c0c8d975" execute="false" modulepath="true" path="javafx-base-linux.jar" size="745516" uri="https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/15/javafx-base-15-linux.jar" write="true"/>
+    <appFile checksum="59904696" execute="false" modulepath="true" path="javafx-web.jar" size="301" uri="https://repo.maven.apache.org/maven2/org/openjfx/javafx-web/15/javafx-web-15.jar" write="true"/>
+    <appFile checksum="8bb1db32" execute="false" modulepath="true" path="javafx-web-linux.jar" size="32301265" uri="https://repo.maven.apache.org/maven2/org/openjfx/javafx-web/15/javafx-web-15-linux.jar" write="true"/>
+    <appFile checksum="f57d458b" execute="false" modulepath="true" path="javafx-media.jar" size="303" uri="https://repo.maven.apache.org/maven2/org/openjfx/javafx-media/15/javafx-media-15.jar" write="true"/>
+    <appFile checksum="1836ffb2" execute="false" modulepath="true" path="javafx-media-linux.jar" size="1435579" uri="https://repo.maven.apache.org/maven2/org/openjfx/javafx-media/15/javafx-media-15-linux.jar" write="true"/>
+    <appFile checksum="df2d4292" execute="false" modulepath="true" path="javafx-fxml.jar" size="302" uri="https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/15/javafx-fxml-15.jar" write="true"/>
+    <appFile checksum="a8a8fbf7" execute="false" modulepath="true" path="javafx-fxml-linux.jar" size="128790" uri="https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/15/javafx-fxml-15-linux.jar" write="true"/>
+    <appFile checksum="d0097f13" execute="false" modulepath="true" path="snake-lib.jar" size="88892" uri="app/business/snake-lib.jar" write="true"/>
+    <appFile checksum="41a28e25" execute="false" modulepath="true" path="dbus-java.jar" size="285491" uri="https://repo.maven.apache.org/maven2/com/github/hypfvieh/dbus-java/3.2.3/dbus-java-3.2.3.jar" write="true"/>
+    <appFile checksum="97da9c7b" execute="false" modulepath="true" path="java-utils.jar" size="65417" uri="https://repo.maven.apache.org/maven2/com/github/hypfvieh/java-utils/1.0.6/java-utils-1.0.6.jar" write="true"/>
+    <appFile checksum="2f53ea40" execute="false" modulepath="true" path="jnr-unixsocket.jar" size="48045" uri="https://repo.maven.apache.org/maven2/com/github/jnr/jnr-unixsocket/0.33/jnr-unixsocket-0.33.jar" write="true"/>
+    <appFile checksum="e6cf7ed2" execute="false" modulepath="true" path="jnr-ffi.jar" size="698486" uri="https://repo.maven.apache.org/maven2/com/github/jnr/jnr-ffi/2.1.15/jnr-ffi-2.1.15.jar" write="true"/>
+    <appFile checksum="7322c781" classpath="true" execute="false" path="jffi.jar" size="152016" uri="https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.2.23/jffi-1.2.23.jar" write="true"/>
+    <appFile checksum="9356fe4" classpath="true" execute="false" path="jffi-native.jar" size="795222" uri="https://repo.maven.apache.org/maven2/com/github/jnr/jffi/1.2.23/jffi-1.2.23-native.jar" write="true"/>
+    <appFile checksum="e0f87beb" classpath="true" execute="false" path="asm.jar" size="114762" uri="https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.1/asm-7.1.jar" write="true"/>
+    <appFile checksum="d2ff471d" execute="false" modulepath="true" path="asm-commons.jar" size="70394" uri="https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/7.1/asm-commons-7.1.jar" write="true"/>
+    <appFile checksum="12a781ff" execute="false" modulepath="true" path="asm-analysis.jar" size="33379" uri="https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/7.1/asm-analysis-7.1.jar" write="true"/>
+    <appFile checksum="68165565" execute="false" modulepath="true" path="asm-tree.jar" size="50303" uri="https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/7.1/asm-tree-7.1.jar" write="true"/>
+    <appFile checksum="3f6fe165" execute="false" modulepath="true" path="asm-util.jar" size="81554" uri="https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/7.1/asm-util-7.1.jar" write="true"/>
+    <appFile checksum="fe92eb6e" execute="false" modulepath="true" path="jnr-a64asm.jar" size="86270" uri="https://repo.maven.apache.org/maven2/com/github/jnr/jnr-a64asm/1.0.0/jnr-a64asm-1.0.0.jar" write="true"/>
+    <appFile checksum="39388c89" execute="false" modulepath="true" path="jnr-x86asm.jar" size="219943" uri="https://repo.maven.apache.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar" write="true"/>
+    <appFile checksum="884e9b81" classpath="true" execute="false" path="jnr-constants.jar" size="657207" uri="https://repo.maven.apache.org/maven2/com/github/jnr/jnr-constants/0.9.15/jnr-constants-0.9.15.jar" write="true"/>
+    <appFile checksum="dbb3b3a3" execute="false" modulepath="true" path="jnr-enxio.jar" size="32156" uri="https://repo.maven.apache.org/maven2/com/github/jnr/jnr-enxio/0.28/jnr-enxio-0.28.jar" write="true"/>
+    <appFile checksum="9c795f9f" execute="false" modulepath="true" path="jnr-posix.jar" size="265978" uri="https://repo.maven.apache.org/maven2/com/github/jnr/jnr-posix/3.0.58/jnr-posix-3.0.58.jar" write="true"/>
+    <appFile checksum="dab9016a" execute="false" modulepath="true" path="commons-lang3.jar" size="577742" uri="https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar" write="true"/>
+    <appFile checksum="2d02368a" execute="false" modulepath="true" path="gson.jar" size="240255" uri="https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar" write="true"/>
+    <appFile checksum="70c9e85c" classpath="true" execute="false" path="slf4j-api.jar" size="56383" uri="https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar" write="true"/>
+    <appFile checksum="81f9c33f" classpath="true" execute="false" path="slf4j-simple.jar" size="14945" uri="https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/2.0.0-alpha1/slf4j-simple-2.0.0-alpha1.jar" write="true"/>
+    <appFile checksum="e508c24e" execute="false" modulepath="true" path="FX-BorderlessScene.jar" size="32070" uri="app/business/FX-BorderlessScene.jar" write="true"/>
+    <appFile checksum="1677de77" execute="false" modulepath="true" path="jna.jar" size="1505196" uri="https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar" write="true"/>
+    <appFile checksum="62ce913b" execute="false" modulepath="true" path="jna-platform.jar" size="2624736" uri="https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.3.1/jna-platform-5.3.1.jar" write="true"/>
+    <appFile checksum="7df392fc" execute="false" modulepath="true" path="SystemTray.jar" size="396873" uri="https://repo.maven.apache.org/maven2/com/dorkbox/SystemTray/3.17/SystemTray-3.17.jar" write="true"/>
+    <appFile checksum="ddf0e484" classpath="true" execute="false" path="ShellExecutor.jar" size="19454" uri="https://repo.maven.apache.org/maven2/com/dorkbox/ShellExecutor/1.1/ShellExecutor-1.1.jar" write="true"/>
+    <appFile checksum="733889e0" classpath="true" execute="false" path="javassist.jar" size="769954" uri="https://repo.maven.apache.org/maven2/org/javassist/javassist/3.23.0-GA/javassist-3.23.0-GA.jar" write="true"/>
+    <appFile checksum="fd5f97b6" execute="false" modulepath="true" path="forker-wrapped.jar" size="6599" uri="app/business/forker-wrapped.jar" write="true"/>
+    <appFile checksum="d54f21ee" execute="false" modulepath="true" path="commonmark.jar" size="143855" uri="https://repo.maven.apache.org/maven2/com/atlassian/commonmark/commonmark/0.15.2/commonmark-0.15.2.jar" write="true"/>
+    <appFile checksum="764659a0" execute="false" modulepath="true" path="icon-generator-javafx.jar" size="10376" uri="https://repo.maven.apache.org/maven2/com/sshtools/icon-generator-javafx/1.2/icon-generator-javafx-1.2.jar" write="true"/>
+    <appFile checksum="4ace03b2" execute="false" modulepath="true" path="icon-generator-common.jar" size="147424" uri="https://repo.maven.apache.org/maven2/com/sshtools/icon-generator-common/1.2/icon-generator-common-1.2.jar" write="true"/>
+    <appFile checksum="969ace5e" execute="false" modulepath="true" path="snake-ui-linux.jar" size="7907" uri="app/business/snake-ui-linux.jar" write="true"/>
+    <appFile checksum="ef243e8d" execute="false" modulepath="true" path="forker-updater.jar" size="51338" uri="app/business/forker-updater.jar" write="true"/>
+    <appFile checksum="c81e6fdf" execute="false" modulepath="true" path="forker-common.jar" size="27076" uri="app/business/forker-common.jar" write="true"/>
+    <appFile checksum="d0d2fcb2" execute="false" modulepath="true" path="commons-io.jar" size="214788" uri="https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar" write="true"/>
+    <appFile checksum="b1414c77" execute="false" modulepath="true" path="forker-client.jar" size="183183" uri="app/business/forker-client.jar" write="true"/>
+    <appFile checksum="9ffc9cd" classpath="true" execute="false" path="commons-cli.jar" size="52988" uri="https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar" write="true"/>
+  </app>
+  <bootstrap>
+    <bootstrapFile checksum="5b3c1abb" execute="false" path="docs/README.md" size="7433" uri="docs/README.md" write="true"/>
+    <bootstrapFile checksum="23ab0d40" execute="false" path="docs/CHANGES.md" size="46" uri="docs/CHANGES.md" write="true"/>
+    <bootstrapFile checksum="938d3f58" execute="false" path="lib/libjawt.so" size="7856" uri="lib/libjawt.so" write="true"/>
+    <bootstrapFile checksum="7b6f75e4" execute="false" path="lib/libmlib_image.so" size="584936" uri="lib/libmlib_image.so" write="true"/>
+    <bootstrapFile checksum="3bef35c8" execute="false" path="lib/libjsound.so" size="82800" uri="lib/libjsound.so" write="true"/>
+    <bootstrapFile checksum="d2221d7c" execute="false" path="lib/jrt-fs.jar" size="107512" uri="lib/jrt-fs.jar" write="true"/>
+    <bootstrapFile checksum="a646618a" execute="false" path="lib/libawt.so" size="752472" uri="lib/libawt.so" write="true"/>
+    <bootstrapFile checksum="5d332334" execute="false" path="lib/modules" size="31046337" uri="lib/modules" write="true"/>
+    <bootstrapFile checksum="1dba725" execute="false" path="lib/librmi.so" size="7616" uri="lib/librmi.so" write="true"/>
+    <bootstrapFile checksum="cc9f8dd7" execute="false" path="lib/libsplashscreen.so" size="373728" uri="lib/libsplashscreen.so" write="true"/>
+    <bootstrapFile checksum="fd4e1593" execute="false" path="lib/libjimage.so" size="592088" uri="lib/libjimage.so" write="true"/>
+    <bootstrapFile checksum="8b6684f6" execute="false" path="lib/server/libjsig.so" size="13128" uri="lib/server/libjsig.so" write="true"/>
+    <bootstrapFile checksum="ce00e2ff" execute="false" path="lib/server/libjvm.so" size="23979272" uri="lib/server/libjvm.so" write="true"/>
+    <bootstrapFile checksum="8b6684f6" execute="false" path="lib/libjsig.so" size="13128" uri="lib/libjsig.so" write="true"/>
+    <bootstrapFile checksum="378bf8ab" execute="false" path="lib/libattach.so" size="13216" uri="lib/libattach.so" write="true"/>
+    <bootstrapFile checksum="2ad10cf9" execute="false" path="lib/libfreetype.so" size="788376" uri="lib/libfreetype.so" write="true"/>
+    <bootstrapFile checksum="7ec3856" execute="false" path="lib/libverify.so" size="80960" uri="lib/libverify.so" write="true"/>
+    <bootstrapFile checksum="bd84cde2" execute="false" path="lib/libprefs.so" size="8096" uri="lib/libprefs.so" write="true"/>
+    <bootstrapFile checksum="821e4060" execute="false" path="lib/libjli.so" size="78392" uri="lib/libjli.so" write="true"/>
+    <bootstrapFile checksum="ba237bb6" execute="false" path="lib/libinstrument.so" size="51264" uri="lib/libinstrument.so" write="true"/>
+    <bootstrapFile checksum="3593b284" execute="false" path="lib/libsunec.so" size="776816" uri="lib/libsunec.so" write="true"/>
+    <bootstrapFile checksum="9b97aee6" execute="false" path="lib/libmanagement.so" size="26000" uri="lib/libmanagement.so" write="true"/>
+    <bootstrapFile checksum="902a0916" execute="false" path="lib/jvm.cfg" size="29" uri="lib/jvm.cfg" write="true"/>
+    <bootstrapFile checksum="916115be" execute="false" path="lib/libnet.so" size="106336" uri="lib/libnet.so" write="true"/>
+    <bootstrapFile checksum="97dfebb1" execute="false" path="lib/libzip.so" size="41984" uri="lib/libzip.so" write="true"/>
+    <bootstrapFile checksum="47c65816" execute="false" path="lib/libnio.so" size="92944" uri="lib/libnio.so" write="true"/>
+    <bootstrapFile checksum="3df442b3" execute="false" path="lib/tzdb.dat" size="107773" uri="lib/tzdb.dat" write="true"/>
+    <bootstrapFile checksum="5d37305f" execute="false" path="lib/libfontmanager.so" size="1922424" uri="lib/libfontmanager.so" write="true"/>
+    <bootstrapFile checksum="b34f5e70" execute="false" path="lib/libawt_headless.so" size="44592" uri="lib/libawt_headless.so" write="true"/>
+    <bootstrapFile checksum="700bb654" execute="false" path="lib/libawt_xawt.so" size="469936" uri="lib/libawt_xawt.so" write="true"/>
+    <bootstrapFile checksum="72f893a" execute="false" path="lib/libmanagement_agent.so" size="7912" uri="lib/libmanagement_agent.so" write="true"/>
+    <bootstrapFile checksum="ddc450e6" execute="false" path="lib/classlist" size="39929" uri="lib/classlist" write="true"/>
+    <bootstrapFile checksum="ae83f26b" execute="false" path="lib/libjava.so" size="191720" uri="lib/libjava.so" write="true"/>
+    <bootstrapFile checksum="82b80d42" execute="false" path="lib/psfont.properties.ja" size="3793" uri="lib/psfont.properties.ja" write="true"/>
+    <bootstrapFile checksum="25a4c0e8" execute="false" path="lib/liblcms.so" size="572016" uri="lib/liblcms.so" write="true"/>
+    <bootstrapFile checksum="796c36b8" execute="false" path="lib/psfontj2d.properties" size="11390" uri="lib/psfontj2d.properties" write="true"/>
+    <bootstrapFile checksum="345a1b8e" execute="false" path="lib/security/blacklisted.certs" size="1253" uri="lib/security/blacklisted.certs" write="true"/>
+    <bootstrapFile checksum="19bb2b54" execute="false" path="lib/security/public_suffix_list.dat" size="232578" uri="lib/security/public_suffix_list.dat" write="true"/>
+    <bootstrapFile checksum="6020cdc0" execute="false" path="lib/security/default.policy" size="9525" uri="lib/security/default.policy" write="true"/>
+    <bootstrapFile checksum="786a5ee0" execute="false" path="lib/security/cacerts" size="101001" uri="lib/security/cacerts" write="true"/>
+    <bootstrapFile checksum="97da8ca3" execute="false" path="lib/libjavajpeg.so" size="262600" uri="lib/libjavajpeg.so" write="true"/>
+    <bootstrapFile checksum="d53f361" execute="true" path="lib/jspawnhelper" size="18320" uri="lib/jspawnhelper" write="true"/>
+    <bootstrapFile checksum="3c9f16a9" execute="true" path="lib/jexec" size="12952" uri="lib/jexec" write="true"/>
+    <bootstrapFile checksum="5ab9f8a6" execute="true" path="bin/jrunscript" size="12768" uri="bin/jrunscript" write="true"/>
+    <bootstrapFile checksum="efaae545" execute="true" path="bin/rmid" size="12736" uri="bin/rmid" write="true"/>
+    <bootstrapFile checksum="c624ea5f" execute="true" path="bin/rmiregistry" size="12736" uri="bin/rmiregistry" write="true"/>
+    <bootstrapFile checksum="98c3e0bc" execute="true" path="bin/java" size="12720" uri="bin/java" write="true"/>
+    <bootstrapFile checksum="5bb5e987" execute="true" path="bin/keytool" size="12736" uri="bin/keytool" write="true"/>
+    <bootstrapFile checksum="482d83b9" execute="false" path="release" size="360" uri="release" write="true"/>
+    <bootstrapFile checksum="ce99b5e2" execute="false" path="legal/java.base/aes.md" size="1444" uri="legal/java.base/aes.md" write="false"/>
+    <bootstrapFile checksum="5d16f093" execute="false" path="legal/java.base/ADDITIONAL_LICENSE_INFO" size="2114" uri="legal/java.base/ADDITIONAL_LICENSE_INFO" write="false"/>
+    <bootstrapFile checksum="e916ea36" execute="false" path="legal/java.base/unicode.md" size="2384" uri="legal/java.base/unicode.md" write="false"/>
+    <bootstrapFile checksum="26e72232" execute="false" path="legal/java.base/public_suffix.md" size="17785" uri="legal/java.base/public_suffix.md" write="false"/>
+    <bootstrapFile checksum="1afed577" execute="false" path="legal/java.base/c-libutl.md" size="1556" uri="legal/java.base/c-libutl.md" write="false"/>
+    <bootstrapFile checksum="38d4577b" execute="false" path="legal/java.base/LICENSE" size="19274" uri="legal/java.base/LICENSE" write="false"/>
+    <bootstrapFile checksum="1807ef18" execute="false" path="legal/java.base/asm.md" size="1584" uri="legal/java.base/asm.md" write="false"/>
+    <bootstrapFile checksum="9c5cbd27" execute="false" path="legal/java.base/icu.md" size="11086" uri="legal/java.base/icu.md" write="false"/>
+    <bootstrapFile checksum="bf0b0dc5" execute="false" path="legal/java.base/ASSEMBLY_EXCEPTION" size="1522" uri="legal/java.base/ASSEMBLY_EXCEPTION" write="false"/>
+    <bootstrapFile checksum="2f5d22ba" execute="false" path="legal/java.base/cldr.md" size="9130" uri="legal/java.base/cldr.md" write="false"/>
+    <bootstrapFile path="legal/java.rmi/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/java.rmi/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/java.rmi/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/jdk.crypto.ec/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile checksum="1c95faa" execute="false" path="legal/jdk.crypto.ec/ecc.md" size="29672" uri="legal/jdk.crypto.ec/ecc.md" write="false"/>
+    <bootstrapFile path="legal/java.management.rmi/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/java.management.rmi/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/java.management.rmi/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/java.instrument/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/java.instrument/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/java.instrument/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/java.datatransfer/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/java.datatransfer/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/java.datatransfer/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/java.naming/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/java.naming/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/java.naming/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/jdk.management.agent/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/jdk.management.agent/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/java.security.sasl/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/java.security.sasl/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/java.security.sasl/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/jdk.internal.jvmstat/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/jdk.internal.jvmstat/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/jdk.internal.jvmstat/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/java.desktop/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile checksum="2767604" execute="false" path="legal/java.desktop/lcms.md" size="1177" uri="legal/java.desktop/lcms.md" write="false"/>
+    <bootstrapFile checksum="e108b6f6" execute="false" path="legal/java.desktop/xwd.md" size="1348" uri="legal/java.desktop/xwd.md" write="false"/>
+    <bootstrapFile path="legal/java.desktop/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile checksum="c654161a" execute="false" path="legal/java.desktop/libpng.md" size="5398" uri="legal/java.desktop/libpng.md" write="false"/>
+    <bootstrapFile path="legal/java.desktop/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile checksum="af31c835" execute="false" path="legal/java.desktop/mesa3d.md" size="5732" uri="legal/java.desktop/mesa3d.md" write="false"/>
+    <bootstrapFile checksum="d5fe63a4" execute="false" path="legal/java.desktop/harfbuzz.md" size="2753" uri="legal/java.desktop/harfbuzz.md" write="false"/>
+    <bootstrapFile checksum="d560ac5c" execute="false" path="legal/java.desktop/jpeg.md" size="3475" uri="legal/java.desktop/jpeg.md" write="false"/>
+    <bootstrapFile checksum="77290f58" execute="false" path="legal/java.desktop/freetype.md" size="28780" uri="legal/java.desktop/freetype.md" write="false"/>
+    <bootstrapFile checksum="b4dc9ba6" execute="false" path="legal/java.desktop/giflib.md" size="1288" uri="legal/java.desktop/giflib.md" write="false"/>
+    <bootstrapFile checksum="1b63810" execute="false" path="legal/java.desktop/colorimaging.md" size="167" uri="legal/java.desktop/colorimaging.md" write="false"/>
+    <bootstrapFile path="legal/java.net.http/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/java.net.http/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/java.net.http/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/jdk.xml.dom/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/jdk.xml.dom/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/java.prefs/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/java.prefs/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/java.prefs/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/java.management/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/java.management/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/java.management/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/jdk.jsobject/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/jdk.jsobject/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/java.logging/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/java.logging/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/java.logging/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/java.sql/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/java.sql/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/java.sql/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/java.scripting/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/java.scripting/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/java.scripting/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/java.transaction.xa/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/java.transaction.xa/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/jdk.attach/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/jdk.attach/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/jdk.attach/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile path="legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/jdk.unsupported/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile path="legal/jdk.unsupported/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile checksum="477204b1" execute="false" path="legal/java.xml/dom.md" size="3028" uri="legal/java.xml/dom.md" write="false"/>
+    <bootstrapFile path="legal/java.xml/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
+    <bootstrapFile path="legal/java.xml/LICENSE" target="../java.base/LICENSE"/>
+    <bootstrapFile checksum="53a41fd6" execute="false" path="legal/java.xml/xalan.md" size="13494" uri="legal/java.xml/xalan.md" write="false"/>
+    <bootstrapFile checksum="5cffe0d9" execute="false" path="legal/java.xml/xerces.md" size="11852" uri="legal/java.xml/xerces.md" write="false"/>
+    <bootstrapFile path="legal/java.xml/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
+    <bootstrapFile checksum="c4af5fd5" execute="false" path="legal/java.xml/bcel.md" size="11503" uri="legal/java.xml/bcel.md" write="false"/>
+    <bootstrapFile checksum="886ea2e5" execute="false" path="legal/java.xml/jcup.md" size="1158" uri="legal/java.xml/jcup.md" write="false"/>
+    <bootstrapFile checksum="741b2f26" execute="false" path="conf/management/jmxremote.password.template" size="5690" uri="conf/management/jmxremote.password.template" write="true"/>
+    <bootstrapFile checksum="8b092ae2" execute="false" path="conf/management/jmxremote.access" size="3997" uri="conf/management/jmxremote.access" write="true"/>
+    <bootstrapFile checksum="c3a893df" execute="false" path="conf/management/management.properties" size="14411" uri="conf/management/management.properties" write="true"/>
+    <bootstrapFile checksum="56458b45" execute="false" path="conf/sound.properties" size="1210" uri="conf/sound.properties" write="true"/>
+    <bootstrapFile checksum="e351dc73" execute="false" path="conf/sdp/sdp.conf.template" size="1455" uri="conf/sdp/sdp.conf.template" write="true"/>
+    <bootstrapFile checksum="7a855523" execute="false" path="conf/logging.properties" size="2733" uri="conf/logging.properties" write="true"/>
+    <bootstrapFile checksum="98154dbc" execute="false" path="conf/net.properties" size="6171" uri="conf/net.properties" write="true"/>
+    <bootstrapFile checksum="ca77e5a6" execute="false" path="conf/security/java.policy" size="2180" uri="conf/security/java.policy" write="true"/>
+    <bootstrapFile checksum="c9f4c502" execute="false" path="conf/security/policy/limited/exempt_local.policy" size="566" uri="conf/security/policy/limited/exempt_local.policy" write="true"/>
+    <bootstrapFile checksum="eb1c31cd" execute="false" path="conf/security/policy/limited/default_US_export.policy" size="146" uri="conf/security/policy/limited/default_US_export.policy" write="true"/>
+    <bootstrapFile checksum="b869d03a" execute="false" path="conf/security/policy/limited/default_local.policy" size="647" uri="conf/security/policy/limited/default_local.policy" write="true"/>
+    <bootstrapFile checksum="eb1c31cd" execute="false" path="conf/security/policy/unlimited/default_US_export.policy" size="146" uri="conf/security/policy/unlimited/default_US_export.policy" write="true"/>
+    <bootstrapFile checksum="fa634440" execute="false" path="conf/security/policy/unlimited/default_local.policy" size="193" uri="conf/security/policy/unlimited/default_local.policy" write="true"/>
+    <bootstrapFile checksum="59a72523" execute="false" path="conf/security/policy/README.txt" size="2390" uri="conf/security/policy/README.txt" write="true"/>
+    <bootstrapFile checksum="e647defa" execute="false" path="conf/security/java.security" size="55129" uri="conf/security/java.security" write="true"/>
+    <bootstrapFile checksum="763d975" execute="false" path="app.cfg" size="1918" uri="app.cfg" write="true"/>
+    <bootstrapFile checksum="8ff09c2c" execute="true" path="bin/snake" size="1931" uri="bin/snake" write="true"/>
+  </bootstrap>
+</configuration>
