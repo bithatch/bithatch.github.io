@@ -1,0 +1,29 @@
+#!/bin/sh
+cd `dirname $0`/..
+VM_OPTIONS="-p app/bootstrap/modulepath/commons-cli.jar:app/bootstrap/modulepath/commons-io.jar:app/bootstrap/modulepath/commons-lang3.jar:app/bootstrap/modulepath/forker-common.jar:app/bootstrap/modulepath/javafx-base.jar:app/bootstrap/modulepath/FX-BorderlessScene.jar:app/bootstrap/modulepath/javafx-base-linux.jar:app/bootstrap/modulepath/javafx-graphics.jar:app/bootstrap/modulepath/jna-platform.jar:app/bootstrap/modulepath/forker-daemon.jar:app/bootstrap/modulepath/snake-updater.jar:app/bootstrap/modulepath/javafx-graphics-linux.jar:app/bootstrap/modulepath/forker-updater.jar:app/bootstrap/modulepath/jna.jar:app/bootstrap/modulepath/forker-wrapper.jar:app/bootstrap/modulepath/javafx-fxml-linux.jar:app/bootstrap/modulepath/forker-client.jar:app/bootstrap/modulepath/javafx-controls.jar:app/bootstrap/modulepath/javafx-fxml.jar:app/bootstrap/modulepath/forker-wrapped.jar:app/bootstrap/modulepath/javafx-controls-linux.jar  --add-modules java.prefs,java.xml,jdk.unsupported,jdk.crypto.ec,java.instrument,java.management,jdk.attach,jdk.management.agent,jdk.xml.dom,jdk.jsobject,java.net.http,java.desktop,java.scripting,java.management,java.sql -Dforker.remoteManifest=http://www.bithatch.co.uk/repositories/snake-noruntime/snapshot -Xmx64m"
+if [ -n "${JAVA_HOME}" ] ; then 
+    JAVA_EXE=${JAVA_HOME}/bin/java
+else
+    JAVA_EXE=java
+fi
+APP_ARGS="--configuration app.cfg"
+while : ; do
+    ${JAVA_EXE} ${VM_OPTIONS} -m com.sshtools.forker.updater/com.sshtools.forker.updater.Updater ${APP_ARGS} $@
+    ret=$?
+    if [ "${ret}" != 9 -o ! -d .updates ]; then
+        exit $ret
+    else
+        echo Updating bootstrap ....
+        cd .updates
+        if ! find . -type d -exec mkdir -p ../\{} \; ; then
+            echo "$0: Failed to recreate directory structure." >&2
+            exit 2
+        fi
+        if ! find . -type f -exec mv -f \{} ../\{} \; ; then
+            echo "$0: Failed to copy update files." >&2
+            exit 2
+        fi
+        cd ..
+        rm -fr .updates
+    fi
+done
