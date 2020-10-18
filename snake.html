@@ -74,7 +74,7 @@ wget http://www.bithatch.co.uk/downloads/snake/snapshot/snake-installer.sh && sh
 						your device is supported.</li>
 					<li><a href="https://openjfx.io/">OpenJFX</a>.
 						The UI toolkit on which on which Snake is based.</li>
-					<li><a href="https://openjfx.io/">OpenJDK</a>.
+					<li><a href=https://adoptopenjdk.net/?variant=openjdk15&jvmVariant=hotspot">OpenJDK</a>.
 						Snake is a Java application, targeting version 15. </li>
 					<li><a href="https://polychromatic.app/">Polychromatic</a>.
 						This great front-end for OpenRazer, influenced some parts of
@@ -93,17 +93,18 @@ wget http://www.bithatch.co.uk/downloads/snake/snapshot/snake-installer.sh && sh
 				<h4>
 					<a name="downloads">Downloads</a>
 				</h4>
-				<h5>Self Extracting / Self Updating Installers (with runtime)</h5>
+				<h5>Self Extracting / Self Updating X86_64 Installers (with runtime)</h5>
 				<ul>
 					<li><a href="downloads/snake/stable/snake-installer.sh">Installer
 							- Stable</a></li>
 					<li><a href="downloads/snake/snapshot/snake-installer.sh">Installer
 							- Snapshot (testing versions, will become next stable)</a></li>
 				</ul>
-				<h5>Self Extracting / Self Updating Installers (with no
+				<h5>Self Extracting / Self Updating Cross Platform Installers (with no
 					runtime)</h5>
-				<p>You must have Java 15 or higher installed before
-					installation.</p>
+				<p>You must have your own <a href="https://adoptopenjdk.net/?variant=openjdk15&jvmVariant=hotspot">Java 15</a> or higher installed before
+					installation. This version is recommended if you are using anything other
+					than X84_64 architecture.</p>
 				<ul>
 					<li><a
 						href="downloads/snake/stable/snake-installer-noruntime.sh">Installer
@@ -114,9 +115,11 @@ wget http://www.bithatch.co.uk/downloads/snake/snapshot/snake-installer.sh && sh
 							stable)</a></li>
 				</ul>
 				<h5>Distribution Packages</h5>
-				<p>You must have Java 15 or higher installed before
-					installation. Only the Snake application itself is self updating
-					using these packages, the 'bootstrap' part must</p>
+				<p>You must have your own <a href="https://adoptopenjdk.net/?variant=openjdk15&jvmVariant=hotspot">Java 15</a> or higher installed before
+					installation. This version works slightly differently with updates as well.
+					Only a bootstrap is installed system-wide (that is not updated). When a user
+					then launches Snake on their desktop, the actual application will be installed
+					and kept up to date.</p>
 				<ul>
 					<li><a href="downloads/snake/stable/snake.deb">DEB -
 							Generic Package - Stable</a></li>
