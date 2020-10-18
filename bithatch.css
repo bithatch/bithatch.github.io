@@ -26,3 +26,13 @@ body {
 	font-family: FROSTBITE-Narrow;
 	color: green;
 }
+
+pre {
+	padding: 1em;
+	background-color: #111;
+}
+
+pre code {
+	color: green;
+	font-size: 12pt;
+}

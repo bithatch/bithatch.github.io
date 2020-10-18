@@ -9,7 +9,7 @@
 	href="font-awesome-4.7.0/css/font-awesome.min.css">
 <title>Snake - A tool for Razer devices on Linux</title>
 </head>
-<body>
+<body class="app-snake">
 	<div class="float-right">
 		<a href="index.html"> <img class="bithatch-logo"
 			src="bithatch-reverse-256.png" /></a>
@@ -43,8 +43,10 @@
 				<p>If you just want to get going, and have a modern 64 bit Linux
 					distribution, try the following first.</p>
 				<pre>
-wget http://www.bithatch.co.uk/downloads/snake/snapshot/snake-installer.sh && sh snake-installer.sh
 				<code>
+wget -O snake-x86_64-installer.sh \
+		http://www.bithatch.co.uk/downloads/snake/snapshot/snake-x86_64-installer.sh && \
+		sh snake-x86_64-installer.sh
 				</code>
 				</pre>
 			</div>
@@ -72,10 +74,11 @@ wget http://www.bithatch.co.uk/downloads/snake/snapshot/snake-installer.sh && sh
 						Provides the default driver. Check <a
 						href="https://openrazer.github.io/#devices">here</a> to see if
 						your device is supported.</li>
-					<li><a href="https://openjfx.io/">OpenJFX</a>.
-						The UI toolkit on which on which Snake is based.</li>
-					<li><a href=https://adoptopenjdk.net/?variant=openjdk15&jvmVariant=hotspot">OpenJDK</a>.
-						Snake is a Java application, targeting version 15. </li>
+					<li><a href="https://openjfx.io/">OpenJFX</a>. The UI toolkit
+						on which on which Snake is based.</li>
+					<li><a
+						href=https://adoptopenjdk.net/?variant=openjdk15&jvmVariant=hotspot">OpenJDK</a>.
+						Snake is a Java application, targeting version 15.</li>
 					<li><a href="https://polychromatic.app/">Polychromatic</a>.
 						This great front-end for OpenRazer, influenced some parts of
 						Snake.</li>
@@ -85,52 +88,96 @@ wget http://www.bithatch.co.uk/downloads/snake/snapshot/snake-installer.sh && sh
 					<li><a href="https://github.com/z3ntu/RazerGenie">razerCommander</a>.
 						Another front-end for OpenRazer, this app fits in well with a
 						Gnome desktop being based on GTK.</li>
-					<li><a href="https://github.com/sshtools/forker/">Forker Updater</a>.
-						Provides the update system and installer for Snake.</li>
+					<li><a href="https://github.com/sshtools/forker/">Forker
+							Updater</a>. Provides the update system and installer for Snake.</li>
 				</ul>
 			</div>
 			<div class="col-md-6">
 				<h4>
 					<a name="downloads">Downloads</a>
 				</h4>
-				<h5>Self Extracting / Self Updating X86_64 Installers (with runtime)</h5>
-				<ul>
-					<li><a href="downloads/snake/stable/snake-installer.sh">Installer
-							- Stable</a></li>
-					<li><a href="downloads/snake/snapshot/snake-installer.sh">Installer
-							- Snapshot (testing versions, will become next stable)</a></li>
-				</ul>
-				<h5>Self Extracting / Self Updating Cross Platform Installers (with no
+				<p><b>Stable</b> releases are recommended. Only use <b>Snapshot</b> versions if
+				you are a tester or know you need it for some device support or feature. You can at any time switch
+				between STABLE and SNAPSHOT updates from the options screen in Snake itself.</p>
+				<h5>Self Extracting / Self Updating X86_64 Installers (with
 					runtime)</h5>
-				<p>You must have your own <a href="https://adoptopenjdk.net/?variant=openjdk15&jvmVariant=hotspot">Java 15</a> or higher installed before
-					installation. This version is recommended if you are using anything other
-					than X84_64 architecture.</p>
+				<ul>
+					<li><a href="downloads/snake/stable/snake-x86_64-installer.sh">Installer
+							- Stable</a></li>
+					<li><a href="downloads/snake/snapshot/snake-x86_64-installer.sh">Installer
+							- Snapshot</a></li>
+				</ul>
+				<h6>Archives</h6>
+				<p>
+					Similar to the above, in that these have a runtime included, but
+					they are just simple archives, so use your usual tool to extract,
+					then run
+					<code>bin/snake</code>
+					. You will have to create your own desktop shortcut if you choose this method.
+				</p>
+				<ul>
+					<li><a href="downloads/snake/stable/snake-x86_64.tar.gz">Archive
+							- Stable</a></li>
+					<li><a href="downloads/snake/snapshot/snake-x86_64.tar.gz">Archive
+							- Snapshot</a></li>
+				</ul>
+				<h5>Self Extracting / Self Updating Cross Platform Installers
+					(with no runtime)</h5>
+				<p>
+					You must have your own <a
+						href="https://adoptopenjdk.net/?variant=openjdk15&jvmVariant=hotspot">Java
+						15</a> or higher installed before installation. This version is
+					recommended if you are using anything other than X84_64
+					architecture.
+				</p>
 				<ul>
 					<li><a
 						href="downloads/snake/stable/snake-installer-noruntime.sh">Installer
 							without Runtime - Stable</a></li>
 					<li><a
 						href="downloads/snake/snapshot/snake-installer-noruntime.sh">Installer
-							without Runtime - Snapshot (testing versions, will become next
-							stable)</a></li>
+							without Runtime - Snapshot</a></li>
 				</ul>
-				<h5>Distribution Packages</h5>
-				<p>You must have your own <a href="https://adoptopenjdk.net/?variant=openjdk15&jvmVariant=hotspot">Java 15</a> or higher installed before
-					installation. This version works slightly differently with updates as well.
-					Only a bootstrap is installed system-wide (that is not updated). When a user
-					then launches Snake on their desktop, the actual application will be installed
-					and kept up to date.</p>
+				<h6>Archives</h6>
+				<p>
+					Similar to the above, in that these have a runtime included, but
+					they are just simple archives, so use your usual tool to extract,
+					then run
+					<code>bin/snake</code>
+					. You will have to create your own desktop shortcut if you choose this method.
+				</p>
 				<ul>
-					<li><a href="downloads/snake/stable/snake.deb">DEB -
-							Generic Package - Stable</a></li>
-					<li><a href="downloads/snake/stable/snake.rpm">RPM -
-							Generic Package - Stable</a></li>
-					<li><a href="downloads/snake/stable/snake.deb">DEB -
-							Generic Package - Snapshot (testing versions, will become next
-							stable)</a></li>
-					<li><a href="downloads/snake/stable/snake.rpm">RPM -
-							Generic Package - Snapshot (testing versions, will become next
-							stable)</a></li>
+					<li><a href="downloads/snake/stable/snake-noruntime.tar.gz">Archive
+							- Stable</a></li>
+					<li><a href="downloads/snake/snapshot/snake-noruntime.tar.gz">Archive
+							- Snapshot</a></li>
+				</ul>
+				<h5>X86_64 Distribution Packages</h5>
+				<p>Note, this version works slightly differently with updates.
+					Only a bootstrap is installed system-wide (that is not updated).
+					When a user then launches Snake on their desktop, the actual
+					application will be installed and kept up to date.</p>
+				<ul>
+					<li><a href="downloads/snake/stable/snake-x86_64.deb">DEB -
+							X86_64 Package - Stable</a></li>
+					<li><a href="downloads/snake/stable/snake-x86_64.rpm">RPM -
+							X86_64 Package - Stable</a></li>
+					<li><a href="downloads/snake/snapshot/snake-x86_64.deb">DEB
+							- X86_64 Package - Snapshot</a></li>
+					<li><a href="downloads/snake/snapshot/snake-x86_64.rpm">RPM
+							- X86_64 Package - Snapshot</a></li>
+				</ul>
+				<h6>Distribution Packages without Runtimes</h6>
+				<p>As above, but you must provide you own runtime.</p>
+				<ul>
+					<li><a href="downloads/snake/stable/snake-noruntime.deb">DEB
+							- Generic Package - Stable</a></li>
+					<li><a href="downloads/snake/stable/snake-noruntime.rpm">RPM
+							- Generic Package - Stable</a></li>
+					<li><a href="downloads/snake/snapshot/snake-noruntime.deb">DEB
+							- Generic Package - Snapshot</a></li>
+					<li><a href="downloads/snake/stable/snake-noruntime.rpm">RPM
+							- Generic Package - Snapshot</a></li>
 				</ul>
 			</div>
 		</div>
