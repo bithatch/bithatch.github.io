@@ -22,7 +22,11 @@ while : ; do
             exit 2
         fi
         if ! find . -type f -exec mv -f \{} ../\{} \; ; then
-            echo "$0: Failed to copy update files." >&2
+            echo "$0: Failed to move update files." >&2
+            exit 2
+        fi
+        if ! find . -type l -exec mv -f \{} ../\{} \; ; then
+            echo "$0: Failed to move link files." >&2
             exit 2
         fi
         cd ..
