@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<configuration id="snake" timestamp="2020-11-24T01:10:30.057562832Z" version="1.0-SNAPSHOT-20">
+<configuration id="snake" timestamp="2020-11-29T22:30:56.408874004Z" version="1.0-SNAPSHOT-24">
   <base path="app/business" uri="http://www.bithatch.co.uk/repositories/snake-noruntime/snapshot"/>
   <properties>
     <property key="maven.central" value="https://repo1.maven.org/maven2"/>
     <property key="main" value="uk.co.bithatch.snake.app.linux/uk.co.bithatch.snake.app.linux.App"/>
   </properties>
   <app>
-    <appFile checksum="f8b0519d" execute="false" modulepath="true" path="snake-ui.jar" size="708457" uri="app/business/snake-ui.jar" write="true"/>
+    <appFile checksum="d89a7db8" execute="false" modulepath="true" path="snake-ui.jar" size="766699" uri="app/business/snake-ui.jar" write="true"/>
     <appFile checksum="e3754678" execute="false" modulepath="true" path="javafx-controls.jar" size="306" uri="app/business/javafx-controls.jar" write="true"/>
     <appFile checksum="2eaa6437" execute="false" modulepath="true" path="javafx-controls-linux.jar" size="2531099" uri="app/business/javafx-controls-linux.jar" write="true"/>
     <appFile checksum="c6af462a" execute="false" modulepath="true" path="javafx-graphics.jar" size="306" uri="app/business/javafx-graphics.jar" write="true"/>
@@ -19,8 +19,9 @@
     <appFile checksum="1836ffb2" execute="false" modulepath="true" path="javafx-media-linux.jar" size="1435579" uri="app/business/javafx-media-linux.jar" write="true"/>
     <appFile checksum="df2d4292" execute="false" modulepath="true" path="javafx-fxml.jar" size="302" uri="app/business/javafx-fxml.jar" write="true"/>
     <appFile checksum="a8a8fbf7" execute="false" modulepath="true" path="javafx-fxml-linux.jar" size="128790" uri="app/business/javafx-fxml-linux.jar" write="true"/>
-    <appFile checksum="ab08da68" execute="false" modulepath="true" path="snake-lib.jar" size="108257" uri="app/business/snake-lib.jar" write="true"/>
+    <appFile checksum="412b6edf" execute="false" modulepath="true" path="snake-lib.jar" size="150511" uri="app/business/snake-lib.jar" write="true"/>
     <appFile checksum="dab9016a" execute="false" modulepath="true" path="commons-lang3.jar" size="577742" uri="app/business/commons-lang3.jar" write="true"/>
+    <appFile checksum="e9768093" execute="false" modulepath="true" path="linuxio4j.jar" size="231599" uri="app/business/linuxio4j.jar" write="true"/>
     <appFile checksum="70c9e85c" execute="false" modulepath="true" path="slf4j-api.jar" size="56383" uri="app/business/slf4j-api.jar" write="true"/>
     <appFile checksum="81f9c33f" execute="false" modulepath="true" path="slf4j-simple.jar" size="14945" uri="app/business/slf4j-simple.jar" write="true"/>
     <appFile checksum="2d02368a" execute="false" modulepath="true" path="gson.jar" size="240255" uri="app/business/gson.jar" write="true"/>
@@ -30,18 +31,20 @@
     <appFile checksum="7df392fc" execute="false" modulepath="true" path="SystemTray.jar" size="396873" uri="app/business/SystemTray.jar" write="true"/>
     <appFile checksum="ddf0e484" classpath="true" execute="false" path="ShellExecutor.jar" size="19454" uri="app/business/ShellExecutor.jar" write="true"/>
     <appFile checksum="733889e0" classpath="true" execute="false" path="javassist.jar" size="769954" uri="app/business/javassist.jar" write="true"/>
-    <appFile checksum="5b0d9887" execute="false" modulepath="true" path="forker-wrapped.jar" size="6599" uri="app/business/forker-wrapped.jar" write="true"/>
+    <appFile checksum="ebf3a095" execute="false" modulepath="true" path="forker-wrapped.jar" size="6875" uri="app/business/forker-wrapped.jar" write="true"/>
+    <appFile checksum="24a92ac8" execute="false" modulepath="true" path="two-slices.jar" size="57284" uri="app/business/two-slices.jar" write="true"/>
     <appFile checksum="d54f21ee" execute="false" modulepath="true" path="commonmark.jar" size="143855" uri="app/business/commonmark.jar" write="true"/>
     <appFile checksum="d9ac738" execute="false" modulepath="true" path="icon-generator-javafx.jar" size="10103" uri="app/business/icon-generator-javafx.jar" write="true"/>
     <appFile checksum="cfae0928" execute="false" modulepath="true" path="icon-generator-common.jar" size="152235" uri="app/business/icon-generator-common.jar" write="true"/>
     <appFile checksum="88a3baa0" execute="false" modulepath="true" path="groovy.jar" size="7950457" uri="app/business/groovy.jar" write="true"/>
-    <appFile checksum="751ea314" execute="false" modulepath="true" path="forker-updater.jar" size="52194" uri="app/business/forker-updater.jar" write="true"/>
-    <appFile checksum="358c3754" execute="false" modulepath="true" path="forker-common.jar" size="27399" uri="app/business/forker-common.jar" write="true"/>
+    <appFile checksum="c8329478" execute="false" modulepath="true" path="controlsfx.jar" size="952724" uri="app/business/controlsfx.jar" write="true"/>
+    <appFile checksum="2ef8a423" execute="false" modulepath="true" path="forker-updater.jar" size="51870" uri="app/business/forker-updater.jar" write="true"/>
+    <appFile checksum="55ee8393" execute="false" modulepath="true" path="forker-common.jar" size="27282" uri="app/business/forker-common.jar" write="true"/>
     <appFile checksum="d0d2fcb2" execute="false" modulepath="true" path="commons-io.jar" size="214788" uri="app/business/commons-io.jar" write="true"/>
-    <appFile checksum="54a27fef" execute="false" modulepath="true" path="forker-client.jar" size="183183" uri="app/business/forker-client.jar" write="true"/>
+    <appFile checksum="6bc14f23" execute="false" modulepath="true" path="forker-client.jar" size="181184" uri="app/business/forker-client.jar" write="true"/>
     <appFile checksum="9ffc9cd" classpath="true" execute="false" path="commons-cli.jar" size="52988" uri="app/business/commons-cli.jar" write="true"/>
-    <appFile checksum="9a8c4bf0" execute="false" modulepath="true" path="snake-app-linux.jar" size="3894" uri="app/business/snake-app-linux.jar" write="true"/>
-    <appFile checksum="7dfa738d" execute="false" modulepath="true" path="snake-backend-openrazer.jar" size="55818" uri="app/business/snake-backend-openrazer.jar" write="true"/>
+    <appFile checksum="55b26d73" execute="false" modulepath="true" path="snake-app-linux.jar" size="3896" uri="app/business/snake-app-linux.jar" write="true"/>
+    <appFile checksum="6421c28a" execute="false" modulepath="true" path="snake-backend-openrazer.jar" size="79184" uri="app/business/snake-backend-openrazer.jar" write="true"/>
     <appFile checksum="41a28e25" execute="false" modulepath="true" path="dbus-java.jar" size="285491" uri="app/business/dbus-java.jar" write="true"/>
     <appFile checksum="97da9c7b" execute="false" modulepath="true" path="java-utils.jar" size="65417" uri="app/business/java-utils.jar" write="true"/>
     <appFile checksum="2f53ea40" execute="false" modulepath="true" path="jnr-unixsocket.jar" size="48045" uri="app/business/jnr-unixsocket.jar" write="true"/>
@@ -58,43 +61,44 @@
     <appFile checksum="884e9b81" classpath="true" execute="false" path="jnr-constants.jar" size="657207" uri="app/business/jnr-constants.jar" write="true"/>
     <appFile checksum="dbb3b3a3" execute="false" modulepath="true" path="jnr-enxio.jar" size="32156" uri="app/business/jnr-enxio.jar" write="true"/>
     <appFile checksum="9c795f9f" execute="false" modulepath="true" path="jnr-posix.jar" size="265978" uri="app/business/jnr-posix.jar" write="true"/>
-    <appFile checksum="3d0eec3b" execute="false" modulepath="true" path="snake-ui-linux.jar" size="8005" uri="app/business/snake-ui-linux.jar" write="true"/>
-    <appFile checksum="59a00806" execute="false" modulepath="true" path="snake-theme-awhitelight.jar" size="1956486" uri="app/business/snake-theme-awhitelight.jar" write="true"/>
-    <appFile checksum="97e4f89" execute="false" modulepath="true" path="snake-theme-agreenfuture.jar" size="1481147" uri="app/business/snake-theme-agreenfuture.jar" write="true"/>
-    <appFile checksum="c9a70f3b" execute="false" modulepath="true" path="snake-theme-anorangetwist.jar" size="1701940" uri="app/business/snake-theme-anorangetwist.jar" write="true"/>
-    <appFile checksum="3d6cfbeb" execute="false" modulepath="true" path="snake-theme-ayellowdwarf.jar" size="1492281" uri="app/business/snake-theme-ayellowdwarf.jar" write="true"/>
-    <appFile checksum="c44d1c2f" execute="false" modulepath="true" path="snake-theme-apinkburst.jar" size="1784410" uri="app/business/snake-theme-apinkburst.jar" write="true"/>
-    <appFile checksum="ba266b25" execute="false" modulepath="true" path="snake-theme-apurplehaze.jar" size="1698519" uri="app/business/snake-theme-apurplehaze.jar" write="true"/>
-    <appFile checksum="9ad85ab8" execute="false" modulepath="true" path="snake-theme-aredsky.jar" size="1501353" uri="app/business/snake-theme-aredsky.jar" write="true"/>
-    <appFile checksum="ece24aaa" execute="false" modulepath="true" path="snake-theme-abluelife.jar" size="1508179" uri="app/business/snake-theme-abluelife.jar" write="true"/>
+    <appFile checksum="657c2ec5" execute="false" modulepath="true" path="snake-ui-linux.jar" size="8013" uri="app/business/snake-ui-linux.jar" write="true"/>
+    <appFile checksum="9feb766a" execute="false" modulepath="true" path="snake-theme-awhitelight.jar" size="1961843" uri="app/business/snake-theme-awhitelight.jar" write="true"/>
+    <appFile checksum="4eda8384" execute="false" modulepath="true" path="snake-theme-agreenfuture.jar" size="1486411" uri="app/business/snake-theme-agreenfuture.jar" write="true"/>
+    <appFile checksum="6711bd5" execute="false" modulepath="true" path="snake-theme-anorangetwist.jar" size="1707526" uri="app/business/snake-theme-anorangetwist.jar" write="true"/>
+    <appFile checksum="94013ee4" execute="false" modulepath="true" path="snake-theme-ayellowdwarf.jar" size="1497587" uri="app/business/snake-theme-ayellowdwarf.jar" write="true"/>
+    <appFile checksum="8b581dbf" execute="false" modulepath="true" path="snake-theme-apinkburst.jar" size="1789940" uri="app/business/snake-theme-apinkburst.jar" write="true"/>
+    <appFile checksum="b3adc7bc" execute="false" modulepath="true" path="snake-theme-apurplehaze.jar" size="1704191" uri="app/business/snake-theme-apurplehaze.jar" write="true"/>
+    <appFile checksum="e567c844" execute="false" modulepath="true" path="snake-theme-aredsky.jar" size="1506609" uri="app/business/snake-theme-aredsky.jar" write="true"/>
+    <appFile checksum="f63c7e14" execute="false" modulepath="true" path="snake-theme-abluelife.jar" size="1513396" uri="app/business/snake-theme-abluelife.jar" write="true"/>
   </app>
   <bootstrap>
     <bootstrapFile checksum="1a1f38e8" execute="false" path="docs/README.md" size="12701" uri="docs/README.md" write="true"/>
-    <bootstrapFile checksum="7a3f967a" execute="false" path="docs/CHANGES.md" size="1203" uri="docs/CHANGES.md" write="true"/>
+    <bootstrapFile checksum="473ccf4c" execute="false" path="docs/CHANGES.md" size="1382" uri="docs/CHANGES.md" write="true"/>
     <bootstrapFile checksum="9ffc9cd" execute="false" path="app/business/commons-cli.jar" size="52988" uri="app/business/commons-cli.jar" write="true"/>
     <bootstrapFile checksum="2f53ea40" execute="false" path="app/business/jnr-unixsocket.jar" size="48045" uri="app/business/jnr-unixsocket.jar" write="true"/>
     <bootstrapFile checksum="7322c781" execute="false" path="app/business/jffi.jar" size="152016" uri="app/business/jffi.jar" write="true"/>
     <bootstrapFile checksum="d0d2fcb2" execute="false" path="app/business/commons-io.jar" size="214788" uri="app/business/commons-io.jar" write="true"/>
-    <bootstrapFile checksum="f8b0519d" execute="false" path="app/business/snake-ui.jar" size="708457" uri="app/business/snake-ui.jar" write="true"/>
+    <bootstrapFile checksum="d89a7db8" execute="false" path="app/business/snake-ui.jar" size="766699" uri="app/business/snake-ui.jar" write="true"/>
     <bootstrapFile checksum="9356fe4" execute="false" path="app/business/jffi-native.jar" size="795222" uri="app/business/jffi-native.jar" write="true"/>
     <bootstrapFile checksum="e6cf7ed2" execute="false" path="app/business/jnr-ffi.jar" size="698486" uri="app/business/jnr-ffi.jar" write="true"/>
     <bootstrapFile checksum="dab9016a" execute="false" path="app/business/commons-lang3.jar" size="577742" uri="app/business/commons-lang3.jar" write="true"/>
     <bootstrapFile checksum="70c9e85c" execute="false" path="app/business/slf4j-api.jar" size="56383" uri="app/business/slf4j-api.jar" write="true"/>
     <bootstrapFile checksum="d54f21ee" execute="false" path="app/business/commonmark.jar" size="143855" uri="app/business/commonmark.jar" write="true"/>
     <bootstrapFile checksum="2d02368a" execute="false" path="app/business/gson.jar" size="240255" uri="app/business/gson.jar" write="true"/>
-    <bootstrapFile checksum="9a8c4bf0" execute="false" path="app/business/snake-app-linux.jar" size="3894" uri="app/business/snake-app-linux.jar" write="true"/>
-    <bootstrapFile checksum="c44d1c2f" execute="false" path="app/business/snake-theme-apinkburst.jar" size="1784410" uri="app/business/snake-theme-apinkburst.jar" write="true"/>
+    <bootstrapFile checksum="55b26d73" execute="false" path="app/business/snake-app-linux.jar" size="3896" uri="app/business/snake-app-linux.jar" write="true"/>
+    <bootstrapFile checksum="8b581dbf" execute="false" path="app/business/snake-theme-apinkburst.jar" size="1789940" uri="app/business/snake-theme-apinkburst.jar" write="true"/>
+    <bootstrapFile checksum="c8329478" execute="false" path="app/business/controlsfx.jar" size="952724" uri="app/business/controlsfx.jar" write="true"/>
     <bootstrapFile checksum="88a3baa0" execute="false" path="app/business/groovy.jar" size="7950457" uri="app/business/groovy.jar" write="true"/>
-    <bootstrapFile checksum="358c3754" execute="false" path="app/business/forker-common.jar" size="27399" uri="app/business/forker-common.jar" write="true"/>
-    <bootstrapFile checksum="97e4f89" execute="false" path="app/business/snake-theme-agreenfuture.jar" size="1481147" uri="app/business/snake-theme-agreenfuture.jar" write="true"/>
+    <bootstrapFile checksum="55ee8393" execute="false" path="app/business/forker-common.jar" size="27282" uri="app/business/forker-common.jar" write="true"/>
+    <bootstrapFile checksum="4eda8384" execute="false" path="app/business/snake-theme-agreenfuture.jar" size="1486411" uri="app/business/snake-theme-agreenfuture.jar" write="true"/>
     <bootstrapFile checksum="19bd430c" execute="false" path="app/business/javafx-base.jar" size="302" uri="app/business/javafx-base.jar" write="true"/>
     <bootstrapFile checksum="39388c89" execute="false" path="app/business/jnr-x86asm.jar" size="219943" uri="app/business/jnr-x86asm.jar" write="true"/>
-    <bootstrapFile checksum="ba266b25" execute="false" path="app/business/snake-theme-apurplehaze.jar" size="1698519" uri="app/business/snake-theme-apurplehaze.jar" write="true"/>
+    <bootstrapFile checksum="b3adc7bc" execute="false" path="app/business/snake-theme-apurplehaze.jar" size="1704191" uri="app/business/snake-theme-apurplehaze.jar" write="true"/>
     <bootstrapFile checksum="c5ce972c" execute="false" path="app/business/FX-BorderlessScene.jar" size="33332" uri="app/business/FX-BorderlessScene.jar" write="true"/>
     <bootstrapFile checksum="fe92eb6e" execute="false" path="app/business/jnr-a64asm.jar" size="86270" uri="app/business/jnr-a64asm.jar" write="true"/>
-    <bootstrapFile checksum="c9a70f3b" execute="false" path="app/business/snake-theme-anorangetwist.jar" size="1701940" uri="app/business/snake-theme-anorangetwist.jar" write="true"/>
+    <bootstrapFile checksum="6711bd5" execute="false" path="app/business/snake-theme-anorangetwist.jar" size="1707526" uri="app/business/snake-theme-anorangetwist.jar" write="true"/>
     <bootstrapFile checksum="12a781ff" execute="false" path="app/business/asm-analysis.jar" size="33379" uri="app/business/asm-analysis.jar" write="true"/>
-    <bootstrapFile checksum="ece24aaa" execute="false" path="app/business/snake-theme-abluelife.jar" size="1508179" uri="app/business/snake-theme-abluelife.jar" write="true"/>
+    <bootstrapFile checksum="f63c7e14" execute="false" path="app/business/snake-theme-abluelife.jar" size="1513396" uri="app/business/snake-theme-abluelife.jar" write="true"/>
     <bootstrapFile checksum="68165565" execute="false" path="app/business/asm-tree.jar" size="50303" uri="app/business/asm-tree.jar" write="true"/>
     <bootstrapFile checksum="c0c8d975" execute="false" path="app/business/javafx-base-linux.jar" size="745516" uri="app/business/javafx-base-linux.jar" write="true"/>
     <bootstrapFile checksum="c6af462a" execute="false" path="app/business/javafx-graphics.jar" size="306" uri="app/business/javafx-graphics.jar" write="true"/>
@@ -104,7 +108,7 @@
     <bootstrapFile checksum="733889e0" execute="false" path="app/business/javassist.jar" size="769954" uri="app/business/javassist.jar" write="true"/>
     <bootstrapFile checksum="cfae0928" execute="false" path="app/business/icon-generator-common.jar" size="152235" uri="app/business/icon-generator-common.jar" write="true"/>
     <bootstrapFile checksum="dbb3b3a3" execute="false" path="app/business/jnr-enxio.jar" size="32156" uri="app/business/jnr-enxio.jar" write="true"/>
-    <bootstrapFile checksum="3d6cfbeb" execute="false" path="app/business/snake-theme-ayellowdwarf.jar" size="1492281" uri="app/business/snake-theme-ayellowdwarf.jar" write="true"/>
+    <bootstrapFile checksum="94013ee4" execute="false" path="app/business/snake-theme-ayellowdwarf.jar" size="1497587" uri="app/business/snake-theme-ayellowdwarf.jar" write="true"/>
     <bootstrapFile checksum="e0f87beb" execute="false" path="app/business/asm.jar" size="114762" uri="app/business/asm.jar" write="true"/>
     <bootstrapFile checksum="d2ff471d" execute="false" path="app/business/asm-commons.jar" size="70394" uri="app/business/asm-commons.jar" write="true"/>
     <bootstrapFile checksum="3f6fe165" execute="false" path="app/business/asm-util.jar" size="81554" uri="app/business/asm-util.jar" write="true"/>
@@ -114,25 +118,27 @@
     <bootstrapFile checksum="f57d458b" execute="false" path="app/business/javafx-media.jar" size="303" uri="app/business/javafx-media.jar" write="true"/>
     <bootstrapFile checksum="884e9b81" execute="false" path="app/business/jnr-constants.jar" size="657207" uri="app/business/jnr-constants.jar" write="true"/>
     <bootstrapFile checksum="59904696" execute="false" path="app/business/javafx-web.jar" size="301" uri="app/business/javafx-web.jar" write="true"/>
-    <bootstrapFile checksum="59a00806" execute="false" path="app/business/snake-theme-awhitelight.jar" size="1956486" uri="app/business/snake-theme-awhitelight.jar" write="true"/>
-    <bootstrapFile checksum="9ad85ab8" execute="false" path="app/business/snake-theme-aredsky.jar" size="1501353" uri="app/business/snake-theme-aredsky.jar" write="true"/>
+    <bootstrapFile checksum="24a92ac8" execute="false" path="app/business/two-slices.jar" size="57284" uri="app/business/two-slices.jar" write="true"/>
+    <bootstrapFile checksum="9feb766a" execute="false" path="app/business/snake-theme-awhitelight.jar" size="1961843" uri="app/business/snake-theme-awhitelight.jar" write="true"/>
+    <bootstrapFile checksum="e567c844" execute="false" path="app/business/snake-theme-aredsky.jar" size="1506609" uri="app/business/snake-theme-aredsky.jar" write="true"/>
     <bootstrapFile checksum="9c795f9f" execute="false" path="app/business/jnr-posix.jar" size="265978" uri="app/business/jnr-posix.jar" write="true"/>
+    <bootstrapFile checksum="e9768093" execute="false" path="app/business/linuxio4j.jar" size="231599" uri="app/business/linuxio4j.jar" write="true"/>
     <bootstrapFile checksum="848b36d3" execute="false" path="app/business/javafx-graphics-linux.jar" size="4966689" uri="app/business/javafx-graphics-linux.jar" write="true"/>
-    <bootstrapFile checksum="751ea314" execute="false" path="app/business/forker-updater.jar" size="52194" uri="app/business/forker-updater.jar" write="true"/>
+    <bootstrapFile checksum="2ef8a423" execute="false" path="app/business/forker-updater.jar" size="51870" uri="app/business/forker-updater.jar" write="true"/>
     <bootstrapFile checksum="1677de77" execute="false" path="app/business/jna.jar" size="1505196" uri="app/business/jna.jar" write="true"/>
     <bootstrapFile checksum="d9ac738" execute="false" path="app/business/icon-generator-javafx.jar" size="10103" uri="app/business/icon-generator-javafx.jar" write="true"/>
-    <bootstrapFile checksum="3d0eec3b" execute="false" path="app/business/snake-ui-linux.jar" size="8005" uri="app/business/snake-ui-linux.jar" write="true"/>
+    <bootstrapFile checksum="657c2ec5" execute="false" path="app/business/snake-ui-linux.jar" size="8013" uri="app/business/snake-ui-linux.jar" write="true"/>
     <bootstrapFile checksum="ddf0e484" execute="false" path="app/business/ShellExecutor.jar" size="19454" uri="app/business/ShellExecutor.jar" write="true"/>
-    <bootstrapFile checksum="7dfa738d" execute="false" path="app/business/snake-backend-openrazer.jar" size="55818" uri="app/business/snake-backend-openrazer.jar" write="true"/>
+    <bootstrapFile checksum="6421c28a" execute="false" path="app/business/snake-backend-openrazer.jar" size="79184" uri="app/business/snake-backend-openrazer.jar" write="true"/>
     <bootstrapFile checksum="a8a8fbf7" execute="false" path="app/business/javafx-fxml-linux.jar" size="128790" uri="app/business/javafx-fxml-linux.jar" write="true"/>
-    <bootstrapFile checksum="54a27fef" execute="false" path="app/business/forker-client.jar" size="183183" uri="app/business/forker-client.jar" write="true"/>
+    <bootstrapFile checksum="6bc14f23" execute="false" path="app/business/forker-client.jar" size="181184" uri="app/business/forker-client.jar" write="true"/>
     <bootstrapFile checksum="e3754678" execute="false" path="app/business/javafx-controls.jar" size="306" uri="app/business/javafx-controls.jar" write="true"/>
     <bootstrapFile checksum="df2d4292" execute="false" path="app/business/javafx-fxml.jar" size="302" uri="app/business/javafx-fxml.jar" write="true"/>
     <bootstrapFile checksum="97da9c7b" execute="false" path="app/business/java-utils.jar" size="65417" uri="app/business/java-utils.jar" write="true"/>
-    <bootstrapFile checksum="ab08da68" execute="false" path="app/business/snake-lib.jar" size="108257" uri="app/business/snake-lib.jar" write="true"/>
-    <bootstrapFile checksum="5b0d9887" execute="false" path="app/business/forker-wrapped.jar" size="6599" uri="app/business/forker-wrapped.jar" write="true"/>
+    <bootstrapFile checksum="412b6edf" execute="false" path="app/business/snake-lib.jar" size="150511" uri="app/business/snake-lib.jar" write="true"/>
+    <bootstrapFile checksum="ebf3a095" execute="false" path="app/business/forker-wrapped.jar" size="6875" uri="app/business/forker-wrapped.jar" write="true"/>
     <bootstrapFile checksum="2eaa6437" execute="false" path="app/business/javafx-controls-linux.jar" size="2531099" uri="app/business/javafx-controls-linux.jar" write="true"/>
-    <bootstrapFile checksum="64ccecce" execute="false" path="app.cfg" size="2633" uri="app.cfg" write="true"/>
+    <bootstrapFile checksum="e22d0cef" execute="false" path="app.cfg" size="2716" uri="app.cfg" write="true"/>
     <bootstrapFile checksum="97ff88c" execute="true" path="bin/snake" size="2263" uri="bin/snake" write="true"/>
   </bootstrap>
 </configuration>
