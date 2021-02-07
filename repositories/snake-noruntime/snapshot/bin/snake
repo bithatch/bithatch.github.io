@@ -2,7 +2,7 @@
 realpath=$(readlink "$0")
 if [ -z "${realpath}" ] ; then realpath="$0" ; fi
 cd $(dirname ${realpath})/..
-VM_OPTIONS="-p app/bootstrap/modulepath/commons-cli.jar:app/bootstrap/modulepath/commons-io.jar:app/bootstrap/modulepath/commons-lang3.jar:app/bootstrap/modulepath/forker-common.jar:app/bootstrap/modulepath/javafx-base.jar:app/bootstrap/modulepath/FX-BorderlessScene.jar:app/bootstrap/modulepath/javafx-base-linux.jar:app/bootstrap/modulepath/javafx-graphics.jar:app/bootstrap/modulepath/jna-platform.jar:app/bootstrap/modulepath/forker-daemon.jar:app/bootstrap/modulepath/snake-updater.jar:app/bootstrap/modulepath/javafx-graphics-linux.jar:app/bootstrap/modulepath/forker-updater.jar:app/bootstrap/modulepath/jna.jar:app/bootstrap/modulepath/forker-wrapper.jar:app/bootstrap/modulepath/javafx-fxml-linux.jar:app/bootstrap/modulepath/forker-client.jar:app/bootstrap/modulepath/javafx-controls.jar:app/bootstrap/modulepath/javafx-fxml.jar:app/bootstrap/modulepath/forker-wrapped.jar:app/bootstrap/modulepath/javafx-controls-linux.jar  --add-modules java.prefs,java.xml,jdk.unsupported,jdk.crypto.ec,java.instrument,java.management,jdk.attach,jdk.management.agent,jdk.xml.dom,jdk.jsobject,java.net.http,java.desktop,java.scripting,java.management,java.sql -Dforker.remoteManifest=http://www.bithatch.co.uk/repositories/snake-noruntime/snapshot -Xmx64m"
+VM_OPTIONS="@snake.args"
 if [ -n "${JAVA_HOME}" ] ; then 
     JAVA_EXE=${JAVA_HOME}/bin/java
 else
