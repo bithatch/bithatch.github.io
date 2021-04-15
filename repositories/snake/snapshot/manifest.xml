@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<configuration id="snake" manifest="2" timestamp="2021-04-15T17:45:04.107054724Z" version="1.0-SNAPSHOT-151">
-  <base basepath="/" classpath="classpath" modulepath="modulepath" path="app/business" uri="http://www.bithatch.co.uk/repositories/snake/snapshot"/>
+<configuration id="snake" manifest="2" timestamp="2021-04-15T22:24:08.100531903Z" version="1.0-SNAPSHOT-170">
+  <base basepath="/" classpath="classpath" modulepath="modulepath" path="app/business" uri="http://blue/repositories/snake/snapshot"/>
   <properties>
     <property key="maven.central" value="https://repo1.maven.org/maven2"/>
     <property key="main" value="uk.co.bithatch.snake.app.linux/uk.co.bithatch.snake.app.linux.App"/>
   </properties>
   <app path="app/business">
-    <appFile checksum="9b69247b" execute="false" filepath="snake-ui.jar" modulepath="true" path="modulepath/snake-ui.jar" rwx="-rw-rw-r--" size="883237" uri="app/business/modulepath/snake-ui.jar" write="true"/>
+    <appFile checksum="53f70174" execute="false" filepath="snake-ui.jar" modulepath="true" path="modulepath/snake-ui.jar" rwx="-rw-rw-r--" size="883406" uri="app/business/modulepath/snake-ui.jar" write="true"/>
     <appFile checksum="1e754ad8" execute="false" filepath="javafx-controls.jar" modulepath="true" path="modulepath/javafx-controls.jar" rwx="-rw-rw-r--" size="306" uri="app/business/modulepath/javafx-controls.jar" write="true"/>
     <appFile checksum="8e5467f3" execute="false" filepath="javafx-controls-linux.jar" modulepath="true" path="modulepath/javafx-controls-linux.jar" rwx="-rw-rw-r--" size="2531099" uri="app/business/modulepath/javafx-controls-linux.jar" write="true"/>
     <appFile checksum="b4a44a22" execute="false" filepath="javafx-graphics.jar" modulepath="true" path="modulepath/javafx-graphics.jar" rwx="-rw-rw-r--" size="306" uri="app/business/modulepath/javafx-graphics.jar" write="true"/>
@@ -19,11 +19,11 @@
     <appFile checksum="c0676ecb" execute="false" filepath="javafx-media-linux.jar" modulepath="true" path="modulepath/javafx-media-linux.jar" rwx="-rw-rw-r--" size="1445210" uri="app/business/modulepath/javafx-media-linux.jar" write="true"/>
     <appFile checksum="cb0e4692" execute="false" filepath="javafx-fxml.jar" modulepath="true" path="modulepath/javafx-fxml.jar" rwx="-rw-rw-r--" size="302" uri="app/business/modulepath/javafx-fxml.jar" write="true"/>
     <appFile checksum="ecb5193e" execute="false" filepath="javafx-fxml-linux.jar" modulepath="true" path="modulepath/javafx-fxml-linux.jar" rwx="-rw-rw-r--" size="128790" uri="app/business/modulepath/javafx-fxml-linux.jar" write="true"/>
-    <appFile checksum="b80e5183" execute="false" filepath="snake-lib.jar" modulepath="true" path="modulepath/snake-lib.jar" rwx="-rw-rw-r--" size="519436" uri="app/business/modulepath/snake-lib.jar" write="true"/>
+    <appFile checksum="be69d5cf" execute="false" filepath="snake-lib.jar" modulepath="true" path="modulepath/snake-lib.jar" rwx="-rw-rw-r--" size="519442" uri="app/business/modulepath/snake-lib.jar" write="true"/>
     <appFile checksum="dab9016a" execute="false" filepath="commons-lang3.jar" modulepath="true" path="modulepath/commons-lang3.jar" rwx="-rw-rw-r--" size="577742" uri="app/business/modulepath/commons-lang3.jar" write="true"/>
     <appFile checksum="154d87ab" execute="false" filepath="linuxio4j.jar" modulepath="true" path="modulepath/linuxio4j.jar" rwx="-rw-rw-r--" size="271259" uri="app/business/modulepath/linuxio4j.jar" write="true"/>
     <appFile checksum="2d02368a" execute="false" filepath="gson.jar" modulepath="true" path="modulepath/gson.jar" rwx="-rw-rw-r--" size="240255" uri="app/business/modulepath/gson.jar" write="true"/>
-    <appFile checksum="66a295b1" execute="false" filepath="snake-widgets.jar" modulepath="true" path="modulepath/snake-widgets.jar" rwx="-rw-rw-r--" size="74772" uri="app/business/modulepath/snake-widgets.jar" write="true"/>
+    <appFile checksum="184166a5" execute="false" filepath="snake-widgets.jar" modulepath="true" path="modulepath/snake-widgets.jar" rwx="-rw-rw-r--" size="74775" uri="app/business/modulepath/snake-widgets.jar" write="true"/>
     <appFile checksum="3c643491" execute="false" filepath="icon-generator-javafx.jar" modulepath="true" path="modulepath/icon-generator-javafx.jar" rwx="-rw-rw-r--" size="10388" uri="app/business/modulepath/icon-generator-javafx.jar" write="true"/>
     <appFile checksum="8e8be053" execute="false" filepath="icon-generator-common.jar" modulepath="true" path="modulepath/icon-generator-common.jar" rwx="-rw-rw-r--" size="152246" uri="app/business/modulepath/icon-generator-common.jar" write="true"/>
     <appFile checksum="fadfd5c" execute="false" filepath="macrolib.jar" modulepath="true" path="modulepath/macrolib.jar" rwx="-rw-rw-r--" size="308111" uri="app/business/modulepath/macrolib.jar" write="true"/>
@@ -55,13 +55,13 @@
     <appFile checksum="324e8065" execute="false" filepath="PropertyLoader.jar" modulepath="true" path="modulepath/PropertyLoader.jar" rwx="-rw-rw-r--" size="6003" uri="app/business/modulepath/PropertyLoader.jar" write="true"/>
     <appFile checksum="97a9abde" execute="false" filepath="SystemTray.jar" modulepath="true" path="modulepath/SystemTray.jar" rwx="-rw-rw-r--" size="220667" uri="app/business/modulepath/SystemTray.jar" write="true"/>
     <appFile checksum="d1839459" execute="false" filepath="Executor.jar" modulepath="true" path="modulepath/Executor.jar" rwx="-rw-rw-r--" size="216615" uri="app/business/modulepath/Executor.jar" write="true"/>
-    <appFile checksum="afcc75f9" execute="false" filepath="kotlinx-coroutines-core-jvm.jar" modulepath="true" path="modulepath/kotlinx-coroutines-core-jvm.jar" rwx="-rw-rw-r--" size="1674933" uri="app/business/modulepath/kotlinx-coroutines-core-jvm.jar" write="true"/>
+    <appFile checksum="afcc75f9" classpath="true" execute="false" filepath="kotlinx-coroutines-core-jvm.jar" path="classpath/kotlinx-coroutines-core-jvm.jar" rwx="-rw-rw-r--" size="1674933" uri="app/business/classpath/kotlinx-coroutines-core-jvm.jar" write="true"/>
     <appFile checksum="fb34d26b" execute="false" filepath="kotlin-logging-jvm.jar" modulepath="true" path="modulepath/kotlin-logging-jvm.jar" rwx="-rw-rw-r--" size="32033" uri="app/business/modulepath/kotlin-logging-jvm.jar" write="true"/>
     <appFile checksum="7122c55" execute="false" filepath="SwtJavaFx.jar" modulepath="true" path="modulepath/SwtJavaFx.jar" rwx="-rw-rw-r--" size="28813" uri="app/business/modulepath/SwtJavaFx.jar" write="true"/>
     <appFile checksum="9e86bfdf" execute="false" filepath="Utilities.jar" modulepath="true" path="modulepath/Utilities.jar" rwx="-rw-rw-r--" size="549689" uri="app/business/modulepath/Utilities.jar" write="true"/>
     <appFile checksum="5d6fe920" execute="false" filepath="javassist.jar" modulepath="true" path="modulepath/javassist.jar" rwx="-rw-rw-r--" size="782774" uri="app/business/modulepath/javassist.jar" write="true"/>
     <appFile checksum="b640ef02" execute="false" filepath="slf4j-api.jar" modulepath="true" path="modulepath/slf4j-api.jar" rwx="-rw-rw-r--" size="41472" uri="app/business/modulepath/slf4j-api.jar" write="true"/>
-    <appFile checksum="ffcc89df" execute="false" filepath="forker-wrapped.jar" modulepath="true" path="modulepath/forker-wrapped.jar" rwx="-rw-rw-r--" size="8916" uri="app/business/modulepath/forker-wrapped.jar" write="true"/>
+    <appFile checksum="e18d9c6c" execute="false" filepath="forker-wrapped.jar" modulepath="true" path="modulepath/forker-wrapped.jar" rwx="-rw-rw-r--" size="8918" uri="app/business/modulepath/forker-wrapped.jar" write="true"/>
     <appFile checksum="3a42f953" execute="false" filepath="two-slices.jar" modulepath="true" path="modulepath/two-slices.jar" rwx="-rw-rw-r--" size="59072" uri="app/business/modulepath/two-slices.jar" write="true"/>
     <appFile checksum="d54f21ee" execute="false" filepath="commonmark.jar" modulepath="true" path="modulepath/commonmark.jar" rwx="-rw-rw-r--" size="143855" uri="app/business/modulepath/commonmark.jar" write="true"/>
     <appFile checksum="88a3baa0" execute="false" filepath="groovy.jar" modulepath="true" path="modulepath/groovy.jar" rwx="-rw-rw-r--" size="7950457" uri="app/business/modulepath/groovy.jar" write="true"/>
@@ -76,21 +76,21 @@
     <appFile checksum="2c278dff" execute="false" filepath="ikonli-core.jar" modulepath="true" path="modulepath/ikonli-core.jar" rwx="-rw-rw-r--" size="14153" uri="app/business/modulepath/ikonli-core.jar" write="true"/>
     <appFile checksum="4d9311ed" execute="false" filepath="ikonli-swing.jar" modulepath="true" path="modulepath/ikonli-swing.jar" rwx="-rw-rw-r--" size="10379" uri="app/business/modulepath/ikonli-swing.jar" write="true"/>
     <appFile checksum="4ef8f47f" execute="false" filepath="ikonli-fontawesome-pack.jar" modulepath="true" path="modulepath/ikonli-fontawesome-pack.jar" rwx="-rw-rw-r--" size="145421" uri="app/business/modulepath/ikonli-fontawesome-pack.jar" write="true"/>
-    <appFile checksum="ffecee4b" execute="false" filepath="forker-updater.jar" modulepath="true" path="modulepath/forker-updater.jar" rwx="-rw-rw-r--" size="59137" uri="app/business/modulepath/forker-updater.jar" write="true"/>
-    <appFile checksum="6fcba2c6" execute="false" filepath="forker-client.jar" modulepath="true" path="modulepath/forker-client.jar" rwx="-rw-rw-r--" size="162287" uri="app/business/modulepath/forker-client.jar" write="true"/>
-    <appFile checksum="daff286b" execute="false" filepath="forker-common.jar" modulepath="true" path="modulepath/forker-common.jar" rwx="-rw-rw-r--" size="37337" uri="app/business/modulepath/forker-common.jar" write="true"/>
+    <appFile checksum="53381070" execute="false" filepath="forker-updater.jar" modulepath="true" path="modulepath/forker-updater.jar" rwx="-rw-rw-r--" size="59141" uri="app/business/modulepath/forker-updater.jar" write="true"/>
+    <appFile checksum="d49fb33" execute="false" filepath="forker-client.jar" modulepath="true" path="modulepath/forker-client.jar" rwx="-rw-rw-r--" size="162290" uri="app/business/modulepath/forker-client.jar" write="true"/>
+    <appFile checksum="6d304a0c" execute="false" filepath="forker-common.jar" modulepath="true" path="modulepath/forker-common.jar" rwx="-rw-rw-r--" size="37340" uri="app/business/modulepath/forker-common.jar" write="true"/>
     <appFile checksum="af3ec6" execute="false" filepath="picocli.jar" modulepath="true" path="modulepath/picocli.jar" rwx="-rw-rw-r--" size="402057" uri="app/business/modulepath/picocli.jar" write="true"/>
-    <appFile checksum="5ee35d75" execute="false" filepath="snake-app-linux.jar" modulepath="true" path="modulepath/snake-app-linux.jar" rwx="-rw-rw-r--" size="3914" uri="app/business/modulepath/snake-app-linux.jar" write="true"/>
-    <appFile checksum="86c332bc" execute="false" filepath="snake-backend-openrazer.jar" modulepath="true" path="modulepath/snake-backend-openrazer.jar" rwx="-rw-rw-r--" size="81242" uri="app/business/modulepath/snake-backend-openrazer.jar" write="true"/>
-    <appFile checksum="5c1b1015" execute="false" filepath="snake-ui-linux.jar" modulepath="true" path="modulepath/snake-ui-linux.jar" rwx="-rw-rw-r--" size="8007" uri="app/business/modulepath/snake-ui-linux.jar" write="true"/>
-    <appFile checksum="9956ff1" execute="false" filepath="snake-theme-awhitelight.jar" modulepath="true" path="modulepath/snake-theme-awhitelight.jar" rwx="-rw-rw-r--" size="2052407" uri="app/business/modulepath/snake-theme-awhitelight.jar" write="true"/>
-    <appFile checksum="bdcf2bc5" execute="false" filepath="snake-theme-agreenfuture.jar" modulepath="true" path="modulepath/snake-theme-agreenfuture.jar" rwx="-rw-rw-r--" size="1582059" uri="app/business/modulepath/snake-theme-agreenfuture.jar" write="true"/>
-    <appFile checksum="d133457e" execute="false" filepath="snake-theme-anorangetwist.jar" modulepath="true" path="modulepath/snake-theme-anorangetwist.jar" rwx="-rw-rw-r--" size="1807210" uri="app/business/modulepath/snake-theme-anorangetwist.jar" write="true"/>
-    <appFile checksum="319aa9dc" execute="false" filepath="snake-theme-ayellowdwarf.jar" modulepath="true" path="modulepath/snake-theme-ayellowdwarf.jar" rwx="-rw-rw-r--" size="1594583" uri="app/business/modulepath/snake-theme-ayellowdwarf.jar" write="true"/>
-    <appFile checksum="b6fb6ba9" execute="false" filepath="snake-theme-apinkburst.jar" modulepath="true" path="modulepath/snake-theme-apinkburst.jar" rwx="-rw-rw-r--" size="1885860" uri="app/business/modulepath/snake-theme-apinkburst.jar" write="true"/>
-    <appFile checksum="18b7325d" execute="false" filepath="snake-theme-apurplehaze.jar" modulepath="true" path="modulepath/snake-theme-apurplehaze.jar" rwx="-rw-rw-r--" size="1805440" uri="app/business/modulepath/snake-theme-apurplehaze.jar" write="true"/>
-    <appFile checksum="45de73be" execute="false" filepath="snake-theme-aredsky.jar" modulepath="true" path="modulepath/snake-theme-aredsky.jar" rwx="-rw-rw-r--" size="1596576" uri="app/business/modulepath/snake-theme-aredsky.jar" write="true"/>
-    <appFile checksum="f4d06ae0" execute="false" filepath="snake-theme-abluelife.jar" modulepath="true" path="modulepath/snake-theme-abluelife.jar" rwx="-rw-rw-r--" size="1604901" uri="app/business/modulepath/snake-theme-abluelife.jar" write="true"/>
+    <appFile checksum="cf974a41" execute="false" filepath="snake-app-linux.jar" modulepath="true" path="modulepath/snake-app-linux.jar" rwx="-rw-rw-r--" size="3923" uri="app/business/modulepath/snake-app-linux.jar" write="true"/>
+    <appFile checksum="90cd05a8" execute="false" filepath="snake-backend-openrazer.jar" modulepath="true" path="modulepath/snake-backend-openrazer.jar" rwx="-rw-rw-r--" size="81249" uri="app/business/modulepath/snake-backend-openrazer.jar" write="true"/>
+    <appFile checksum="9e5103e1" execute="false" filepath="snake-ui-linux.jar" modulepath="true" path="modulepath/snake-ui-linux.jar" rwx="-rw-rw-r--" size="8017" uri="app/business/modulepath/snake-ui-linux.jar" write="true"/>
+    <appFile checksum="8d851084" execute="false" filepath="snake-theme-awhitelight.jar" modulepath="true" path="modulepath/snake-theme-awhitelight.jar" rwx="-rw-rw-r--" size="2052414" uri="app/business/modulepath/snake-theme-awhitelight.jar" write="true"/>
+    <appFile checksum="4a00dae6" execute="false" filepath="snake-theme-agreenfuture.jar" modulepath="true" path="modulepath/snake-theme-agreenfuture.jar" rwx="-rw-rw-r--" size="1582068" uri="app/business/modulepath/snake-theme-agreenfuture.jar" write="true"/>
+    <appFile checksum="6aeaee11" execute="false" filepath="snake-theme-anorangetwist.jar" modulepath="true" path="modulepath/snake-theme-anorangetwist.jar" rwx="-rw-rw-r--" size="1807218" uri="app/business/modulepath/snake-theme-anorangetwist.jar" write="true"/>
+    <appFile checksum="f83b5829" execute="false" filepath="snake-theme-ayellowdwarf.jar" modulepath="true" path="modulepath/snake-theme-ayellowdwarf.jar" rwx="-rw-rw-r--" size="1594590" uri="app/business/modulepath/snake-theme-ayellowdwarf.jar" write="true"/>
+    <appFile checksum="a284167f" execute="false" filepath="snake-theme-apinkburst.jar" modulepath="true" path="modulepath/snake-theme-apinkburst.jar" rwx="-rw-rw-r--" size="1885867" uri="app/business/modulepath/snake-theme-apinkburst.jar" write="true"/>
+    <appFile checksum="159ae342" execute="false" filepath="snake-theme-apurplehaze.jar" modulepath="true" path="modulepath/snake-theme-apurplehaze.jar" rwx="-rw-rw-r--" size="1805448" uri="app/business/modulepath/snake-theme-apurplehaze.jar" write="true"/>
+    <appFile checksum="898a16f4" execute="false" filepath="snake-theme-aredsky.jar" modulepath="true" path="modulepath/snake-theme-aredsky.jar" rwx="-rw-rw-r--" size="1596584" uri="app/business/modulepath/snake-theme-aredsky.jar" write="true"/>
+    <appFile checksum="42221235" execute="false" filepath="snake-theme-abluelife.jar" modulepath="true" path="modulepath/snake-theme-abluelife.jar" rwx="-rw-rw-r--" size="1604909" uri="app/business/modulepath/snake-theme-abluelife.jar" write="true"/>
     <appFile checksum="33f0f8b1" execute="false" filepath="slf4j-simple.jar" modulepath="true" path="modulepath/slf4j-simple.jar" rwx="-rw-rw-r--" size="15239" uri="app/business/modulepath/slf4j-simple.jar" write="true"/>
   </app>
   <bootstrap path="app/bootstrap">
@@ -109,14 +109,14 @@
     <bootstrapFile checksum="f528ed23" execute="false" filepath="ikonli-javafx.jar" modulepath="true" path="app/bootstrap/modulepath/ikonli-javafx.jar" rwx="-rw-rw-r--" size="36718" uri="app/bootstrap/modulepath/ikonli-javafx.jar" write="true"/>
     <bootstrapFile checksum="2c278dff" execute="false" filepath="ikonli-core.jar" modulepath="true" path="app/bootstrap/modulepath/ikonli-core.jar" rwx="-rw-rw-r--" size="14153" uri="app/bootstrap/modulepath/ikonli-core.jar" write="true"/>
     <bootstrapFile checksum="4ef8f47f" execute="false" filepath="ikonli-fontawesome-pack.jar" modulepath="true" path="app/bootstrap/modulepath/ikonli-fontawesome-pack.jar" rwx="-rw-rw-r--" size="145421" uri="app/bootstrap/modulepath/ikonli-fontawesome-pack.jar" write="true"/>
-    <bootstrapFile checksum="63d0a34b" execute="false" filepath="snake-updater.jar" modulepath="true" path="app/bootstrap/modulepath/snake-updater.jar" rwx="-rw-rw-r--" size="90895" uri="app/bootstrap/modulepath/snake-updater.jar" write="true"/>
-    <bootstrapFile checksum="ffecee4b" execute="false" filepath="forker-updater.jar" modulepath="true" path="app/bootstrap/modulepath/forker-updater.jar" rwx="-rw-rw-r--" size="59137" uri="app/bootstrap/modulepath/forker-updater.jar" write="true"/>
-    <bootstrapFile checksum="511418a5" execute="false" filepath="forker-wrapper.jar" modulepath="true" path="app/bootstrap/modulepath/forker-wrapper.jar" rwx="-rw-rw-r--" size="89864" uri="app/bootstrap/modulepath/forker-wrapper.jar" write="true"/>
-    <bootstrapFile checksum="6fcba2c6" execute="false" filepath="forker-client.jar" modulepath="true" path="app/bootstrap/modulepath/forker-client.jar" rwx="-rw-rw-r--" size="162287" uri="app/bootstrap/modulepath/forker-client.jar" write="true"/>
-    <bootstrapFile checksum="daff286b" execute="false" filepath="forker-common.jar" modulepath="true" path="app/bootstrap/modulepath/forker-common.jar" rwx="-rw-rw-r--" size="37337" uri="app/bootstrap/modulepath/forker-common.jar" write="true"/>
+    <bootstrapFile checksum="e2b18722" execute="false" filepath="snake-updater.jar" modulepath="true" path="app/bootstrap/modulepath/snake-updater.jar" rwx="-rw-rw-r--" size="90900" uri="app/bootstrap/modulepath/snake-updater.jar" write="true"/>
+    <bootstrapFile checksum="53381070" execute="false" filepath="forker-updater.jar" modulepath="true" path="app/bootstrap/modulepath/forker-updater.jar" rwx="-rw-rw-r--" size="59141" uri="app/bootstrap/modulepath/forker-updater.jar" write="true"/>
+    <bootstrapFile checksum="d7e73cd6" execute="false" filepath="forker-wrapper.jar" modulepath="true" path="app/bootstrap/modulepath/forker-wrapper.jar" rwx="-rw-rw-r--" size="89868" uri="app/bootstrap/modulepath/forker-wrapper.jar" write="true"/>
+    <bootstrapFile checksum="d49fb33" execute="false" filepath="forker-client.jar" modulepath="true" path="app/bootstrap/modulepath/forker-client.jar" rwx="-rw-rw-r--" size="162290" uri="app/bootstrap/modulepath/forker-client.jar" write="true"/>
+    <bootstrapFile checksum="6d304a0c" execute="false" filepath="forker-common.jar" modulepath="true" path="app/bootstrap/modulepath/forker-common.jar" rwx="-rw-rw-r--" size="37340" uri="app/bootstrap/modulepath/forker-common.jar" write="true"/>
     <bootstrapFile checksum="af3ec6" execute="false" filepath="picocli.jar" modulepath="true" path="app/bootstrap/modulepath/picocli.jar" rwx="-rw-rw-r--" size="402057" uri="app/bootstrap/modulepath/picocli.jar" write="true"/>
-    <bootstrapFile checksum="fb262871" execute="false" filepath="/docs/README.md" path="/docs/README.md" rwx="-rw-rw-r--" size="14339" uri="docs/README.md" write="true"/>
-    <bootstrapFile checksum="c9d282e9" execute="false" filepath="/docs/CHANGES.md" path="/docs/CHANGES.md" rwx="-rw-rw-r--" size="3417" uri="docs/CHANGES.md" write="true"/>
+    <bootstrapFile checksum="5b4d285f" execute="false" filepath="/docs/README.md" path="/docs/README.md" rwx="-rw-rw-r--" size="14339" uri="docs/README.md" write="true"/>
+    <bootstrapFile checksum="146a9f90" execute="false" filepath="/docs/CHANGES.md" path="/docs/CHANGES.md" rwx="-rw-rw-r--" size="3515" uri="docs/CHANGES.md" write="true"/>
     <bootstrapFile filepath="/legal/java.datatransfer/ASSEMBLY_EXCEPTION" path="/legal/java.datatransfer/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
     <bootstrapFile filepath="/legal/java.datatransfer/LICENSE" path="/legal/java.datatransfer/LICENSE" target="../java.base/LICENSE"/>
     <bootstrapFile filepath="/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO" path="/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
@@ -134,7 +134,6 @@
     <bootstrapFile filepath="/legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO" path="/legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
     <bootstrapFile checksum="d5fe63a4" execute="false" filepath="/legal/java.desktop/harfbuzz.md" path="/legal/java.desktop/harfbuzz.md" rwx="-r--r--r--" size="2753" uri="legal/java.desktop/harfbuzz.md" write="false"/>
     <bootstrapFile filepath="/legal/java.desktop/ASSEMBLY_EXCEPTION" path="/legal/java.desktop/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
-    <bootstrapFile checksum="77290f58" execute="false" filepath="/legal/java.desktop/freetype.md" path="/legal/java.desktop/freetype.md" rwx="-r--r--r--" size="28780" uri="legal/java.desktop/freetype.md" write="false"/>
     <bootstrapFile checksum="e108b6f6" execute="false" filepath="/legal/java.desktop/xwd.md" path="/legal/java.desktop/xwd.md" rwx="-r--r--r--" size="1348" uri="legal/java.desktop/xwd.md" write="false"/>
     <bootstrapFile checksum="c654161a" execute="false" filepath="/legal/java.desktop/libpng.md" path="/legal/java.desktop/libpng.md" rwx="-r--r--r--" size="5398" uri="legal/java.desktop/libpng.md" write="false"/>
     <bootstrapFile checksum="af31c835" execute="false" filepath="/legal/java.desktop/mesa3d.md" path="/legal/java.desktop/mesa3d.md" rwx="-r--r--r--" size="5732" uri="legal/java.desktop/mesa3d.md" write="false"/>
@@ -148,9 +147,12 @@
     <bootstrapFile checksum="e916ea36" execute="false" filepath="/legal/java.base/unicode.md" path="/legal/java.base/unicode.md" rwx="-r--r--r--" size="2384" uri="legal/java.base/unicode.md" write="false"/>
     <bootstrapFile checksum="1afed577" execute="false" filepath="/legal/java.base/c-libutl.md" path="/legal/java.base/c-libutl.md" rwx="-r--r--r--" size="1556" uri="legal/java.base/c-libutl.md" write="false"/>
     <bootstrapFile checksum="9c5cbd27" execute="false" filepath="/legal/java.base/icu.md" path="/legal/java.base/icu.md" rwx="-r--r--r--" size="11086" uri="legal/java.base/icu.md" write="false"/>
+    <bootstrapFile checksum="bfae174a" execute="false" filepath="/legal/java.base/epl-2.0.html" path="/legal/java.base/epl-2.0.html" rwx="-r--r--r--" size="17300" uri="legal/java.base/epl-2.0.html" write="false"/>
+    <bootstrapFile checksum="8ba7ec15" execute="false" filepath="/legal/java.base/openj9-openjdk-notices" path="/legal/java.base/openj9-openjdk-notices" rwx="-r--r--r--" size="6377" uri="legal/java.base/openj9-openjdk-notices" write="false"/>
+    <bootstrapFile checksum="a1db3bbb" execute="false" filepath="/legal/java.base/openj9-notices" path="/legal/java.base/openj9-notices" rwx="-r--r--r--" size="33947" uri="legal/java.base/openj9-notices" write="false"/>
     <bootstrapFile checksum="1807ef18" execute="false" filepath="/legal/java.base/asm.md" path="/legal/java.base/asm.md" rwx="-r--r--r--" size="1584" uri="legal/java.base/asm.md" write="false"/>
     <bootstrapFile checksum="ce99b5e2" execute="false" filepath="/legal/java.base/aes.md" path="/legal/java.base/aes.md" rwx="-r--r--r--" size="1444" uri="legal/java.base/aes.md" write="false"/>
-    <bootstrapFile checksum="38d4577b" execute="false" filepath="/legal/java.base/LICENSE" path="/legal/java.base/LICENSE" rwx="-r--r--r--" size="19274" uri="legal/java.base/LICENSE" write="false"/>
+    <bootstrapFile checksum="5582dd88" execute="false" filepath="/legal/java.base/LICENSE" path="/legal/java.base/LICENSE" rwx="-r--r--r--" size="19650" uri="legal/java.base/LICENSE" write="false"/>
     <bootstrapFile checksum="26e72232" execute="false" filepath="/legal/java.base/public_suffix.md" path="/legal/java.base/public_suffix.md" rwx="-r--r--r--" size="17785" uri="legal/java.base/public_suffix.md" write="false"/>
     <bootstrapFile checksum="2f5d22ba" execute="false" filepath="/legal/java.base/cldr.md" path="/legal/java.base/cldr.md" rwx="-r--r--r--" size="9130" uri="legal/java.base/cldr.md" write="false"/>
     <bootstrapFile checksum="5d16f093" execute="false" filepath="/legal/java.base/ADDITIONAL_LICENSE_INFO" path="/legal/java.base/ADDITIONAL_LICENSE_INFO" rwx="-r--r--r--" size="2114" uri="legal/java.base/ADDITIONAL_LICENSE_INFO" write="false"/>
@@ -205,54 +207,94 @@
     <bootstrapFile filepath="/legal/java.sql/ASSEMBLY_EXCEPTION" path="/legal/java.sql/ASSEMBLY_EXCEPTION" target="../java.base/ASSEMBLY_EXCEPTION"/>
     <bootstrapFile filepath="/legal/java.sql/LICENSE" path="/legal/java.sql/LICENSE" target="../java.base/LICENSE"/>
     <bootstrapFile filepath="/legal/java.sql/ADDITIONAL_LICENSE_INFO" path="/legal/java.sql/ADDITIONAL_LICENSE_INFO" target="../java.base/ADDITIONAL_LICENSE_INFO"/>
-    <bootstrapFile checksum="98c3e0bc" execute="true" filepath="/bin/java" path="/bin/java" rwx="-rwxrwxr-x" size="12720" uri="bin/java" write="true"/>
-    <bootstrapFile checksum="c624ea5f" execute="true" filepath="/bin/rmiregistry" path="/bin/rmiregistry" rwx="-rwxrwxr-x" size="12736" uri="bin/rmiregistry" write="true"/>
-    <bootstrapFile checksum="5ab9f8a6" execute="true" filepath="/bin/jrunscript" path="/bin/jrunscript" rwx="-rwxrwxr-x" size="12768" uri="bin/jrunscript" write="true"/>
-    <bootstrapFile checksum="5bb5e987" execute="true" filepath="/bin/keytool" path="/bin/keytool" rwx="-rwxrwxr-x" size="12736" uri="bin/keytool" write="true"/>
-    <bootstrapFile checksum="efaae545" execute="true" filepath="/bin/rmid" path="/bin/rmid" rwx="-rwxrwxr-x" size="12736" uri="bin/rmid" write="true"/>
-    <bootstrapFile checksum="c9d282e9" execute="false" filepath="/docs/CHANGES.md" path="/docs/CHANGES.md" rwx="-rw-rw-r--" size="3417" uri="docs/CHANGES.md" write="true"/>
-    <bootstrapFile checksum="fb262871" execute="false" filepath="/docs/README.md" path="/docs/README.md" rwx="-rw-rw-r--" size="14339" uri="docs/README.md" write="true"/>
-    <bootstrapFile checksum="385e7b55" execute="false" filepath="/release" path="/release" rwx="-rw-rw-r--" size="338" uri="release" write="true"/>
-    <bootstrapFile checksum="7b6f75e4" execute="false" filepath="/lib/libmlib_image.so" path="/lib/libmlib_image.so" rwx="-rw-rw-r--" size="584936" uri="lib/libmlib_image.so" write="true"/>
-    <bootstrapFile checksum="916115be" execute="false" filepath="/lib/libnet.so" path="/lib/libnet.so" rwx="-rw-rw-r--" size="106336" uri="lib/libnet.so" write="true"/>
-    <bootstrapFile checksum="3593b284" execute="false" filepath="/lib/libsunec.so" path="/lib/libsunec.so" rwx="-rw-rw-r--" size="776816" uri="lib/libsunec.so" write="true"/>
-    <bootstrapFile checksum="8b6684f6" execute="false" filepath="/lib/server/libjsig.so" path="/lib/server/libjsig.so" rwx="-rw-rw-r--" size="13128" uri="lib/server/libjsig.so" write="true"/>
-    <bootstrapFile checksum="ce00e2ff" execute="false" filepath="/lib/server/libjvm.so" path="/lib/server/libjvm.so" rwx="-rw-rw-r--" size="23979272" uri="lib/server/libjvm.so" write="true"/>
-    <bootstrapFile checksum="938d3f58" execute="false" filepath="/lib/libjawt.so" path="/lib/libjawt.so" rwx="-rw-rw-r--" size="7856" uri="lib/libjawt.so" write="true"/>
-    <bootstrapFile checksum="d53f361" execute="true" filepath="/lib/jspawnhelper" path="/lib/jspawnhelper" rwx="-rwxrwxr-x" size="18320" uri="lib/jspawnhelper" write="true"/>
-    <bootstrapFile checksum="3bef35c8" execute="false" filepath="/lib/libjsound.so" path="/lib/libjsound.so" rwx="-rw-rw-r--" size="82800" uri="lib/libjsound.so" write="true"/>
-    <bootstrapFile checksum="1dba725" execute="false" filepath="/lib/librmi.so" path="/lib/librmi.so" rwx="-rw-rw-r--" size="7616" uri="lib/librmi.so" write="true"/>
-    <bootstrapFile checksum="ae83f26b" execute="false" filepath="/lib/libjava.so" path="/lib/libjava.so" rwx="-rw-rw-r--" size="191720" uri="lib/libjava.so" write="true"/>
-    <bootstrapFile checksum="b34f5e70" execute="false" filepath="/lib/libawt_headless.so" path="/lib/libawt_headless.so" rwx="-rw-rw-r--" size="44592" uri="lib/libawt_headless.so" write="true"/>
-    <bootstrapFile checksum="d2221d7c" execute="false" filepath="/lib/jrt-fs.jar" path="/lib/jrt-fs.jar" rwx="-rw-rw-r--" size="107512" uri="lib/jrt-fs.jar" write="true"/>
-    <bootstrapFile checksum="8b6684f6" execute="false" filepath="/lib/libjsig.so" path="/lib/libjsig.so" rwx="-rw-rw-r--" size="13128" uri="lib/libjsig.so" write="true"/>
-    <bootstrapFile checksum="786a5ee0" execute="false" filepath="/lib/security/cacerts" path="/lib/security/cacerts" rwx="-rw-rw-r--" size="101001" uri="lib/security/cacerts" write="true"/>
-    <bootstrapFile checksum="6020cdc0" execute="false" filepath="/lib/security/default.policy" path="/lib/security/default.policy" rwx="-rw-rw-r--" size="9525" uri="lib/security/default.policy" write="true"/>
-    <bootstrapFile checksum="345a1b8e" execute="false" filepath="/lib/security/blacklisted.certs" path="/lib/security/blacklisted.certs" rwx="-rw-rw-r--" size="1253" uri="lib/security/blacklisted.certs" write="true"/>
+    <bootstrapFile checksum="78501741" execute="true" filepath="/bin/jitserver" path="/bin/jitserver" rwx="-rwxrwxr-x" size="13264" uri="bin/jitserver" write="true"/>
+    <bootstrapFile checksum="f491e3b3" execute="true" filepath="/bin/java" path="/bin/java" rwx="-rwxrwxr-x" size="12728" uri="bin/java" write="true"/>
+    <bootstrapFile checksum="7cbeefb3" execute="true" filepath="/bin/rmiregistry" path="/bin/rmiregistry" rwx="-rwxrwxr-x" size="12752" uri="bin/rmiregistry" write="true"/>
+    <bootstrapFile checksum="c44dfd78" execute="true" filepath="/bin/jrunscript" path="/bin/jrunscript" rwx="-rwxrwxr-x" size="12784" uri="bin/jrunscript" write="true"/>
+    <bootstrapFile checksum="ef72eda9" execute="true" filepath="/bin/keytool" path="/bin/keytool" rwx="-rwxrwxr-x" size="12744" uri="bin/keytool" write="true"/>
+    <bootstrapFile checksum="486ce5de" execute="true" filepath="/bin/rmid" path="/bin/rmid" rwx="-rwxrwxr-x" size="12744" uri="bin/rmid" write="true"/>
+    <bootstrapFile checksum="146a9f90" execute="false" filepath="/docs/CHANGES.md" path="/docs/CHANGES.md" rwx="-rw-rw-r--" size="3515" uri="docs/CHANGES.md" write="true"/>
+    <bootstrapFile checksum="5b4d285f" execute="false" filepath="/docs/README.md" path="/docs/README.md" rwx="-rw-rw-r--" size="14339" uri="docs/README.md" write="true"/>
+    <bootstrapFile checksum="3af37c13" execute="false" filepath="/release" path="/release" rwx="-rw-rw-r--" size="342" uri="release" write="true"/>
+    <bootstrapFile checksum="3625e84e" execute="false" filepath="/lib/compressedrefs/libj9gcchk29.so" path="/lib/compressedrefs/libj9gcchk29.so" rwx="-rw-rw-r--" size="143880" uri="lib/compressedrefs/libj9gcchk29.so" write="true"/>
+    <bootstrapFile checksum="fabefdd3" execute="false" filepath="/lib/compressedrefs/j9ddr.dat" path="/lib/compressedrefs/j9ddr.dat" rwx="-rw-rw-r--" size="786772" uri="lib/compressedrefs/j9ddr.dat" write="true"/>
+    <bootstrapFile checksum="5e796584" execute="false" filepath="/lib/compressedrefs/libj9prt29.so" path="/lib/compressedrefs/libj9prt29.so" rwx="-rw-rw-r--" size="614352" uri="lib/compressedrefs/libj9prt29.so" write="true"/>
+    <bootstrapFile checksum="2375c321" execute="false" filepath="/lib/compressedrefs/libjclse29.so" path="/lib/compressedrefs/libjclse29.so" rwx="-rw-rw-r--" size="556440" uri="lib/compressedrefs/libjclse29.so" write="true"/>
+    <bootstrapFile checksum="20f5e1d8" execute="false" filepath="/lib/compressedrefs/libj9hookable29.so" path="/lib/compressedrefs/libj9hookable29.so" rwx="-rw-rw-r--" size="27920" uri="lib/compressedrefs/libj9hookable29.so" write="true"/>
+    <bootstrapFile checksum="4f357b05" execute="false" filepath="/lib/compressedrefs/libj9jnichk29.so" path="/lib/compressedrefs/libj9jnichk29.so" rwx="-rw-rw-r--" size="220896" uri="lib/compressedrefs/libj9jnichk29.so" write="true"/>
+    <bootstrapFile checksum="45c83d6a" execute="false" filepath="/lib/compressedrefs/libj9jvmti29.so" path="/lib/compressedrefs/libj9jvmti29.so" rwx="-rw-rw-r--" size="405600" uri="lib/compressedrefs/libj9jvmti29.so" write="true"/>
+    <bootstrapFile checksum="f3516d21" execute="false" filepath="/lib/compressedrefs/libj9vmchk29.so" path="/lib/compressedrefs/libj9vmchk29.so" rwx="-rw-rw-r--" size="63552" uri="lib/compressedrefs/libj9vmchk29.so" write="true"/>
+    <bootstrapFile checksum="9c27dcb5" execute="false" filepath="/lib/compressedrefs/libj9thr29.so" path="/lib/compressedrefs/libj9thr29.so" rwx="-rw-rw-r--" size="124128" uri="lib/compressedrefs/libj9thr29.so" write="true"/>
+    <bootstrapFile checksum="6ab66db6" execute="false" filepath="/lib/compressedrefs/libjvm.so" path="/lib/compressedrefs/libjvm.so" rwx="-rw-rw-r--" size="297776" uri="lib/compressedrefs/libjvm.so" write="true"/>
+    <bootstrapFile checksum="4e5c8c0b" execute="false" filepath="/lib/compressedrefs/libj9gc29.so" path="/lib/compressedrefs/libj9gc29.so" rwx="-rw-rw-r--" size="3686872" uri="lib/compressedrefs/libj9gc29.so" write="true"/>
+    <bootstrapFile checksum="775c9440" execute="false" filepath="/lib/compressedrefs/libj9vrb29.so" path="/lib/compressedrefs/libj9vrb29.so" rwx="-rw-rw-r--" size="938328" uri="lib/compressedrefs/libj9vrb29.so" write="true"/>
+    <bootstrapFile checksum="e8ed3a2c" execute="false" filepath="/lib/compressedrefs/libj9zlib29.so" path="/lib/compressedrefs/libj9zlib29.so" rwx="-rw-rw-r--" size="94112" uri="lib/compressedrefs/libj9zlib29.so" write="true"/>
+    <bootstrapFile checksum="7e6a6805" execute="false" filepath="/lib/compressedrefs/libomrsig.so" path="/lib/compressedrefs/libomrsig.so" rwx="-rw-rw-r--" size="17144" uri="lib/compressedrefs/libomrsig.so" write="true"/>
+    <bootstrapFile checksum="18d9f666" execute="false" filepath="/lib/compressedrefs/libj9trc29.so" path="/lib/compressedrefs/libj9trc29.so" rwx="-rw-rw-r--" size="229512" uri="lib/compressedrefs/libj9trc29.so" write="true"/>
+    <bootstrapFile checksum="76328b41" execute="false" filepath="/lib/compressedrefs/libj9dmp29.so" path="/lib/compressedrefs/libj9dmp29.so" rwx="-rw-rw-r--" size="314424" uri="lib/compressedrefs/libj9dmp29.so" write="true"/>
+    <bootstrapFile checksum="dd861950" execute="false" filepath="/lib/compressedrefs/libj9jit29.so" path="/lib/compressedrefs/libj9jit29.so" rwx="-rw-rw-r--" size="14685808" uri="lib/compressedrefs/libj9jit29.so" write="true"/>
+    <bootstrapFile checksum="798e6175" execute="false" filepath="/lib/compressedrefs/libj9vm29.so" path="/lib/compressedrefs/libj9vm29.so" rwx="-rw-rw-r--" size="1783256" uri="lib/compressedrefs/libj9vm29.so" write="true"/>
+    <bootstrapFile checksum="611b5bde" execute="false" filepath="/lib/libmlib_image.so" path="/lib/libmlib_image.so" rwx="-rw-rw-r--" size="582600" uri="lib/libmlib_image.so" write="true"/>
+    <bootstrapFile checksum="74254b72" execute="false" filepath="/lib/libnet.so" path="/lib/libnet.so" rwx="-rw-rw-r--" size="105464" uri="lib/libnet.so" write="true"/>
+    <bootstrapFile checksum="daf9e9ee" execute="false" filepath="/lib/java_ca.properties" path="/lib/java_ca.properties" rwx="-rw-rw-r--" size="180106" uri="lib/java_ca.properties" write="true"/>
+    <bootstrapFile checksum="6fdf7c2e" execute="false" filepath="/lib/libsunec.so" path="/lib/libsunec.so" rwx="-rw-rw-r--" size="324616" uri="lib/libsunec.so" write="true"/>
+    <bootstrapFile checksum="1da780b0" execute="false" filepath="/lib/java_pt_BR.properties" path="/lib/java_pt_BR.properties" rwx="-rw-rw-r--" size="175320" uri="lib/java_pt_BR.properties" write="true"/>
+    <bootstrapFile checksum="5047e978" execute="false" filepath="/lib/server/libjsig.so" path="/lib/server/libjsig.so" rwx="-rw-rw-r--" size="12736" uri="lib/server/libjsig.so" write="true"/>
+    <bootstrapFile checksum="654c6d2" execute="false" filepath="/lib/server/libjvm.so" path="/lib/server/libjvm.so" rwx="-rw-rw-r--" size="113856" uri="lib/server/libjvm.so" write="true"/>
+    <bootstrapFile checksum="f41c3e81" execute="false" filepath="/lib/libjawt.so" path="/lib/libjawt.so" rwx="-rw-rw-r--" size="7872" uri="lib/libjawt.so" write="true"/>
+    <bootstrapFile checksum="c81e68" execute="false" filepath="/lib/java_zh.properties" path="/lib/java_zh.properties" rwx="-rw-rw-r--" size="214720" uri="lib/java_zh.properties" write="true"/>
+    <bootstrapFile checksum="bbea5e6" execute="false" filepath="/lib/java_sl.properties" path="/lib/java_sl.properties" rwx="-rw-rw-r--" size="164512" uri="lib/java_sl.properties" write="true"/>
+    <bootstrapFile checksum="a71aed39" execute="true" filepath="/lib/jspawnhelper" path="/lib/jspawnhelper" rwx="-rwxrwxr-x" size="18296" uri="lib/jspawnhelper" write="true"/>
+    <bootstrapFile checksum="64dbc5dd" execute="false" filepath="/lib/java_ko.properties" path="/lib/java_ko.properties" rwx="-rw-rw-r--" size="277920" uri="lib/java_ko.properties" write="true"/>
+    <bootstrapFile checksum="77d97a2f" execute="false" filepath="/lib/libjsound.so" path="/lib/libjsound.so" rwx="-rw-rw-r--" size="81968" uri="lib/libjsound.so" write="true"/>
+    <bootstrapFile checksum="440aa69f" execute="false" filepath="/lib/librmi.so" path="/lib/librmi.so" rwx="-rw-rw-r--" size="7616" uri="lib/librmi.so" write="true"/>
+    <bootstrapFile checksum="d4f8f7c3" execute="false" filepath="/lib/java.properties" path="/lib/java.properties" rwx="-rw-rw-r--" size="133055" uri="lib/java.properties" write="true"/>
+    <bootstrapFile checksum="3c0531bd" execute="false" filepath="/lib/java_sk.properties" path="/lib/java_sk.properties" rwx="-rw-rw-r--" size="197058" uri="lib/java_sk.properties" write="true"/>
+    <bootstrapFile checksum="e631b4f0" execute="false" filepath="/lib/libjava.so" path="/lib/libjava.so" rwx="-rw-rw-r--" size="159408" uri="lib/libjava.so" write="true"/>
+    <bootstrapFile checksum="459fdbc9" execute="false" filepath="/lib/java_cs.properties" path="/lib/java_cs.properties" rwx="-rw-rw-r--" size="215599" uri="lib/java_cs.properties" write="true"/>
+    <bootstrapFile checksum="f8949a87" execute="false" filepath="/lib/libawt_headless.so" path="/lib/libawt_headless.so" rwx="-rw-rw-r--" size="43624" uri="lib/libawt_headless.so" write="true"/>
+    <bootstrapFile checksum="a9d4666e" execute="false" filepath="/lib/java_ja.properties" path="/lib/java_ja.properties" rwx="-rw-rw-r--" size="349864" uri="lib/java_ja.properties" write="true"/>
+    <bootstrapFile checksum="133233e5" execute="false" filepath="/lib/jrt-fs.jar" path="/lib/jrt-fs.jar" rwx="-rw-rw-r--" size="107515" uri="lib/jrt-fs.jar" write="true"/>
+    <bootstrapFile checksum="e31f421c" execute="false" filepath="/lib/java_zh_TW.properties" path="/lib/java_zh_TW.properties" rwx="-rw-rw-r--" size="209359" uri="lib/java_zh_TW.properties" write="true"/>
+    <bootstrapFile checksum="5047e978" execute="false" filepath="/lib/libjsig.so" path="/lib/libjsig.so" rwx="-rw-rw-r--" size="12736" uri="lib/libjsig.so" write="true"/>
+    <bootstrapFile checksum="cd60a7c7" execute="false" filepath="/lib/libjncrypto.so" path="/lib/libjncrypto.so" rwx="-rw-rw-r--" size="33440" uri="lib/libjncrypto.so" write="true"/>
+    <bootstrapFile checksum="e8087edf" execute="false" filepath="/lib/security/cacerts" path="/lib/security/cacerts" rwx="-rw-rw-r--" size="165823" uri="lib/security/cacerts" write="true"/>
+    <bootstrapFile checksum="a8248439" execute="false" filepath="/lib/security/default.policy" path="/lib/security/default.policy" rwx="-rw-rw-r--" size="11497" uri="lib/security/default.policy" write="true"/>
+    <bootstrapFile checksum="e3c730aa" execute="false" filepath="/lib/security/blacklisted.certs" path="/lib/security/blacklisted.certs" rwx="-rw-rw-r--" size="2488" uri="lib/security/blacklisted.certs" write="true"/>
     <bootstrapFile checksum="19bb2b54" execute="false" filepath="/lib/security/public_suffix_list.dat" path="/lib/security/public_suffix_list.dat" rwx="-rw-rw-r--" size="232578" uri="lib/security/public_suffix_list.dat" write="true"/>
     <bootstrapFile checksum="82b80d42" execute="false" filepath="/lib/psfont.properties.ja" path="/lib/psfont.properties.ja" rwx="-rw-rw-r--" size="3793" uri="lib/psfont.properties.ja" write="true"/>
-    <bootstrapFile checksum="fd4e1593" execute="false" filepath="/lib/libjimage.so" path="/lib/libjimage.so" rwx="-rw-rw-r--" size="592088" uri="lib/libjimage.so" write="true"/>
-    <bootstrapFile checksum="ddc450e6" execute="false" filepath="/lib/classlist" path="/lib/classlist" rwx="-rw-rw-r--" size="39929" uri="lib/classlist" write="true"/>
-    <bootstrapFile checksum="97dfebb1" execute="false" filepath="/lib/libzip.so" path="/lib/libzip.so" rwx="-rw-rw-r--" size="41984" uri="lib/libzip.so" write="true"/>
+    <bootstrapFile checksum="6260fd32" execute="false" filepath="/lib/libjimage.so" path="/lib/libjimage.so" rwx="-rw-rw-r--" size="140608" uri="lib/libjimage.so" write="true"/>
+    <bootstrapFile checksum="afabb3b4" execute="false" filepath="/lib/libzip.so" path="/lib/libzip.so" rwx="-rw-rw-r--" size="41752" uri="lib/libzip.so" write="true"/>
     <bootstrapFile checksum="902a0916" execute="false" filepath="/lib/jvm.cfg" path="/lib/jvm.cfg" rwx="-rw-rw-r--" size="29" uri="lib/jvm.cfg" write="true"/>
-    <bootstrapFile checksum="cc9f8dd7" execute="false" filepath="/lib/libsplashscreen.so" path="/lib/libsplashscreen.so" rwx="-rw-rw-r--" size="373728" uri="lib/libsplashscreen.so" write="true"/>
-    <bootstrapFile checksum="7ec3856" execute="false" filepath="/lib/libverify.so" path="/lib/libverify.so" rwx="-rw-rw-r--" size="80960" uri="lib/libverify.so" write="true"/>
-    <bootstrapFile checksum="47c65816" execute="false" filepath="/lib/libnio.so" path="/lib/libnio.so" rwx="-rw-rw-r--" size="92944" uri="lib/libnio.so" write="true"/>
-    <bootstrapFile checksum="72f893a" execute="false" filepath="/lib/libmanagement_agent.so" path="/lib/libmanagement_agent.so" rwx="-rw-rw-r--" size="7912" uri="lib/libmanagement_agent.so" write="true"/>
-    <bootstrapFile checksum="5d37305f" execute="false" filepath="/lib/libfontmanager.so" path="/lib/libfontmanager.so" rwx="-rw-rw-r--" size="1922424" uri="lib/libfontmanager.so" write="true"/>
-    <bootstrapFile checksum="25a4c0e8" execute="false" filepath="/lib/liblcms.so" path="/lib/liblcms.so" rwx="-rw-rw-r--" size="572016" uri="lib/liblcms.so" write="true"/>
-    <bootstrapFile checksum="3df442b3" execute="false" filepath="/lib/tzdb.dat" path="/lib/tzdb.dat" rwx="-rw-rw-r--" size="107773" uri="lib/tzdb.dat" write="true"/>
-    <bootstrapFile checksum="2ad10cf9" execute="false" filepath="/lib/libfreetype.so" path="/lib/libfreetype.so" rwx="-rw-rw-r--" size="788376" uri="lib/libfreetype.so" write="true"/>
-    <bootstrapFile checksum="821e4060" execute="false" filepath="/lib/libjli.so" path="/lib/libjli.so" rwx="-rw-rw-r--" size="78392" uri="lib/libjli.so" write="true"/>
-    <bootstrapFile checksum="a646618a" execute="false" filepath="/lib/libawt.so" path="/lib/libawt.so" rwx="-rw-rw-r--" size="752472" uri="lib/libawt.so" write="true"/>
-    <bootstrapFile checksum="ca191bd6" execute="false" filepath="/lib/modules" path="/lib/modules" rwx="-rw-rw-r--" size="31033909" uri="lib/modules" write="true"/>
+    <bootstrapFile checksum="b127b3e3" execute="false" filepath="/lib/libsplashscreen.so" path="/lib/libsplashscreen.so" rwx="-rw-rw-r--" size="371392" uri="lib/libsplashscreen.so" write="true"/>
+    <bootstrapFile checksum="40179a5e" execute="false" filepath="/lib/java_tr.properties" path="/lib/java_tr.properties" rwx="-rw-rw-r--" size="218392" uri="lib/java_tr.properties" write="true"/>
+    <bootstrapFile checksum="5047e978" execute="false" filepath="/lib/j9vm/libjsig.so" path="/lib/j9vm/libjsig.so" rwx="-rw-rw-r--" size="12736" uri="lib/j9vm/libjsig.so" write="true"/>
+    <bootstrapFile checksum="654c6d2" execute="false" filepath="/lib/j9vm/libjvm.so" path="/lib/j9vm/libjvm.so" rwx="-rw-rw-r--" size="113856" uri="lib/j9vm/libjvm.so" write="true"/>
+    <bootstrapFile checksum="7539f9b2" execute="false" filepath="/lib/libverify.so" path="/lib/libverify.so" rwx="-rw-rw-r--" size="64392" uri="lib/libverify.so" write="true"/>
+    <bootstrapFile checksum="7adaa800" execute="false" filepath="/lib/libnio.so" path="/lib/libnio.so" rwx="-rw-rw-r--" size="92144" uri="lib/libnio.so" write="true"/>
+    <bootstrapFile checksum="9c0821a3" execute="false" filepath="/lib/java_zh_CN.properties" path="/lib/java_zh_CN.properties" rwx="-rw-rw-r--" size="214678" uri="lib/java_zh_CN.properties" write="true"/>
+    <bootstrapFile checksum="e57e88e7" execute="false" filepath="/lib/libmanagement_agent.so" path="/lib/libmanagement_agent.so" rwx="-rw-rw-r--" size="7920" uri="lib/libmanagement_agent.so" write="true"/>
+    <bootstrapFile checksum="c8a5947e" execute="false" filepath="/lib/libfontmanager.so" path="/lib/libfontmanager.so" rwx="-rw-rw-r--" size="1479128" uri="lib/libfontmanager.so" write="true"/>
+    <bootstrapFile checksum="77428e6" execute="false" filepath="/lib/liblcms.so" path="/lib/liblcms.so" rwx="-rw-rw-r--" size="571144" uri="lib/liblcms.so" write="true"/>
+    <bootstrapFile checksum="b10e00f0" execute="false" filepath="/lib/options.default" path="/lib/options.default" rwx="-rw-rw-r--" size="1342" uri="lib/options.default" write="true"/>
+    <bootstrapFile checksum="64febe06" execute="false" filepath="/lib/java_es.properties" path="/lib/java_es.properties" rwx="-rw-rw-r--" size="179940" uri="lib/java_es.properties" write="true"/>
+    <bootstrapFile checksum="ec7763ab" execute="false" filepath="/lib/tzdb.dat" path="/lib/tzdb.dat" rwx="-rw-rw-r--" size="107853" uri="lib/tzdb.dat" write="true"/>
+    <bootstrapFile checksum="a6623c62" execute="false" filepath="/lib/java_fr.properties" path="/lib/java_fr.properties" rwx="-rw-rw-r--" size="186835" uri="lib/java_fr.properties" write="true"/>
+    <bootstrapFile checksum="8411224" execute="false" filepath="/lib/libjli.so" path="/lib/libjli.so" rwx="-rw-rw-r--" size="78144" uri="lib/libjli.so" write="true"/>
+    <bootstrapFile checksum="cd115b4a" execute="false" filepath="/lib/libawt.so" path="/lib/libawt.so" rwx="-rw-rw-r--" size="749832" uri="lib/libawt.so" write="true"/>
+    <bootstrapFile checksum="f8d075df" execute="false" filepath="/lib/java_pl.properties" path="/lib/java_pl.properties" rwx="-rw-rw-r--" size="206628" uri="lib/java_pl.properties" write="true"/>
+    <bootstrapFile checksum="8d465401" execute="false" filepath="/lib/modules" path="/lib/modules" rwx="-rw-rw-r--" size="31258433" uri="lib/modules" write="true"/>
+    <bootstrapFile checksum="341d2e1a" execute="false" filepath="/lib/java_hu.properties" path="/lib/java_hu.properties" rwx="-rw-rw-r--" size="225721" uri="lib/java_hu.properties" write="true"/>
+    <bootstrapFile checksum="cefc1691" execute="false" filepath="/lib/java_it.properties" path="/lib/java_it.properties" rwx="-rw-rw-r--" size="163055" uri="lib/java_it.properties" write="true"/>
     <bootstrapFile checksum="796c36b8" execute="false" filepath="/lib/psfontj2d.properties" path="/lib/psfontj2d.properties" rwx="-rw-rw-r--" size="11390" uri="lib/psfontj2d.properties" write="true"/>
-    <bootstrapFile checksum="bd84cde2" execute="false" filepath="/lib/libprefs.so" path="/lib/libprefs.so" rwx="-rw-rw-r--" size="8096" uri="lib/libprefs.so" write="true"/>
-    <bootstrapFile checksum="3c9f16a9" execute="true" filepath="/lib/jexec" path="/lib/jexec" rwx="-rwxrwxr-x" size="12952" uri="lib/jexec" write="true"/>
-    <bootstrapFile checksum="9b97aee6" execute="false" filepath="/lib/libmanagement.so" path="/lib/libmanagement.so" rwx="-rw-rw-r--" size="26000" uri="lib/libmanagement.so" write="true"/>
-    <bootstrapFile checksum="700bb654" execute="false" filepath="/lib/libawt_xawt.so" path="/lib/libawt_xawt.so" rwx="-rw-rw-r--" size="469936" uri="lib/libawt_xawt.so" write="true"/>
-    <bootstrapFile checksum="97da8ca3" execute="false" filepath="/lib/libjavajpeg.so" path="/lib/libjavajpeg.so" rwx="-rw-rw-r--" size="262600" uri="lib/libjavajpeg.so" write="true"/>
-    <bootstrapFile checksum="ba237bb6" execute="false" filepath="/lib/libinstrument.so" path="/lib/libinstrument.so" rwx="-rw-rw-r--" size="51264" uri="lib/libinstrument.so" write="true"/>
+    <bootstrapFile checksum="9c89c741" execute="false" filepath="/lib/libprefs.so" path="/lib/libprefs.so" rwx="-rw-rw-r--" size="8096" uri="lib/libprefs.so" write="true"/>
+    <bootstrapFile checksum="9f511537" execute="true" filepath="/lib/jexec" path="/lib/jexec" rwx="-rwxrwxr-x" size="12968" uri="lib/jexec" write="true"/>
+    <bootstrapFile checksum="22bf7697" execute="false" filepath="/lib/libmanagement.so" path="/lib/libmanagement.so" rwx="-rw-rw-r--" size="7528" uri="lib/libmanagement.so" write="true"/>
+    <bootstrapFile checksum="cf9f3181" execute="false" filepath="/lib/libawt_xawt.so" path="/lib/libawt_xawt.so" rwx="-rw-rw-r--" size="468000" uri="lib/libawt_xawt.so" write="true"/>
+    <bootstrapFile checksum="6f64b04" execute="false" filepath="/lib/libjavajpeg.so" path="/lib/libjavajpeg.so" rwx="-rw-rw-r--" size="261048" uri="lib/libjavajpeg.so" write="true"/>
+    <bootstrapFile checksum="d648186f" execute="false" filepath="/lib/libinstrument.so" path="/lib/libinstrument.so" rwx="-rw-rw-r--" size="50808" uri="lib/libinstrument.so" write="true"/>
+    <bootstrapFile checksum="c82b26d7" execute="false" filepath="/lib/java_de.properties" path="/lib/java_de.properties" rwx="-rw-rw-r--" size="179496" uri="lib/java_de.properties" write="true"/>
+    <bootstrapFile checksum="11ab2466" execute="false" filepath="/lib/java_ru.properties" path="/lib/java_ru.properties" rwx="-rw-rw-r--" size="581848" uri="lib/java_ru.properties" write="true"/>
     <bootstrapFile checksum="c3a893df" execute="false" filepath="/conf/management/management.properties" path="/conf/management/management.properties" rwx="-rw-rw-r--" size="14411" uri="conf/management/management.properties" write="true"/>
     <bootstrapFile checksum="8b092ae2" execute="false" filepath="/conf/management/jmxremote.access" path="/conf/management/jmxremote.access" rwx="-rw-rw-r--" size="3997" uri="conf/management/jmxremote.access" write="true"/>
     <bootstrapFile checksum="741b2f26" execute="false" filepath="/conf/management/jmxremote.password.template" path="/conf/management/jmxremote.password.template" rwx="-rw-rw-r--" size="5690" uri="conf/management/jmxremote.password.template" write="true"/>
@@ -269,8 +311,8 @@
     <bootstrapFile checksum="e351dc73" execute="false" filepath="/conf/sdp/sdp.conf.template" path="/conf/sdp/sdp.conf.template" rwx="-rw-rw-r--" size="1455" uri="conf/sdp/sdp.conf.template" write="true"/>
     <bootstrapFile checksum="7a855523" execute="false" filepath="/conf/logging.properties" path="/conf/logging.properties" rwx="-rw-rw-r--" size="2733" uri="conf/logging.properties" write="true"/>
     <bootstrapFile checksum="746dfc54" execute="false" filepath="/splash.png" path="/splash.png" rwx="-rw-rw-r--" size="13148" uri="splash.png" write="true"/>
-    <bootstrapFile checksum="c6cba543" execute="false" filepath="/app.cfg" path="/app.cfg" rwx="-rw-rw-r--" size="4411" uri="app.cfg" write="true"/>
+    <bootstrapFile checksum="a8f898c6" execute="false" filepath="/app.cfg" path="/app.cfg" rwx="-rw-rw-r--" size="4378" uri="app.cfg" write="true"/>
     <bootstrapFile checksum="8ccd0b7c" execute="true" filepath="/bin/snake" path="/bin/snake" rwx="-rwxrw-r--" size="960" uri="bin/snake" write="true"/>
-    <bootstrapFile checksum="d0c6dadb" execute="false" filepath="/snake.args" path="/snake.args" rwx="-rw-rw-r--" size="1236" uri="snake.args" write="true"/>
+    <bootstrapFile checksum="f4dfd59b" execute="false" filepath="/snake.args" path="/snake.args" rwx="-rw-rw-r--" size="1222" uri="snake.args" write="true"/>
   </bootstrap>
 </configuration>
