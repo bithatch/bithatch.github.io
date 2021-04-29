@@ -8,7 +8,7 @@ if [ -n "${JAVA_HOME}" ] ; then
 else
     JAVA_EXE=java
 fi
-APP_ARGS="--configuration app.cfg"
+APP_ARGS="--configuration=app.cfg"
 while : ; do
     ${JAVA_EXE} ${VM_OPTIONS} -m com.sshtools.forker.updater/com.sshtools.forker.updater.Updater ${APP_ARGS} $@
     ret=$?

@@ -4,7 +4,7 @@ if [ -z "${realpath}" ] ; then realpath="$0" ; fi
 cd $(dirname ${realpath})/..
 VM_OPTIONS="@snake.args"
 JAVA_EXE=bin/java
-APP_ARGS="--configuration app.cfg"
+APP_ARGS="--configuration=app.cfg"
 while : ; do
     ${JAVA_EXE} ${VM_OPTIONS} -m com.sshtools.forker.updater/com.sshtools.forker.updater.Updater ${APP_ARGS} $@
     ret=$?

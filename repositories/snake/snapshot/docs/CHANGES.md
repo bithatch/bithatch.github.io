@@ -1,3 +1,7 @@
+# 1.0.0-SNAPSHOT-173
+
+ * Fails to start if `jscal` or `jstest-gtk` are not installed.
+   
 # 1.0.0-SNAPSHOT-172
 
  * OpenJ9 wasn't actually activated (due to problem with jimpulse), but it now
