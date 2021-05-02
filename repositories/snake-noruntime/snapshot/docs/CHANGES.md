@@ -1,7 +1,3 @@
-# 1.0.0-SNAPSHOT-175
-
- * Added layout for Razer Base Station Chroma V2 .
-
 # 1.0.0-SNAPSHOT-173
 
  * Fails to start if `jscal` or `jstest-gtk` are not installed.
