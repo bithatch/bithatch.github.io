@@ -1,0 +1,11 @@
+#!/bin/sh
+realpath=$(readlink "$0")
+if [ -z "${realpath}" ] ; then realpath="$0" ; fi
+cd $(dirname ${realpath})/..
+VM_OPTIONS="@uninstaller.args"
+JAVA_EXE=bin/java
+while : ; do
+    ${JAVA_EXE} ${VM_OPTIONS} -m com.sshtools.forker.updater/com.sshtools.forker.updater.Uninstaller ${APP_ARGS} $@
+    ret=$?
+    exit $ret
+done

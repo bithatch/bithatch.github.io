@@ -9,6 +9,7 @@ while : ; do
     ${JAVA_EXE} ${VM_OPTIONS} -m com.sshtools.forker.updater/com.sshtools.forker.updater.Updater ${APP_ARGS} $@
     ret=$?
     if [ "${ret}" != 9 -o ! -d .updates ]; then
+        rm -fr .updates
         exit $ret
     else
         echo Updating bootstrap ....
