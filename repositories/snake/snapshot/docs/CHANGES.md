@@ -1,3 +1,28 @@
+# 1.0.0-SNAPSHOT-305
+
+ * New "Carousel" view for multiple devices (use mouse wheel or drag to change view). List view can be activated by clicking "List" at the bottom left.
+ * Official layouts can now be edited and re-exported.
+ * Can now have more complex Java plugins.
+ * Navigation has been simplified, only left and right arrows and sliding effects as used as drill deeper into the interface or return back to the overview.
+ * Last selected views are now remembered.
+ * Initial work on supporting other vendors. This is also a first step for cross platform
+   compatibility.
+ * Prototype plugin for Corsair devices via CKB. Currently works with K70 RGB MK 2.
+ * Prototype plugin for many devices using OpenRGB SDK Server.
+ * New Firmware information panel. Firmware details removed from list view.
+ * New Firmware updater if the backend supports in (only new CKB backend currently does). Will show in Firmware information panel when supported.
+ * Some usability fixes for layout designer.
+ * Start working towards native compilation (long term project)
+ * Monochrome filter now works correctly.
+ * Virtual key grab, making it easier to find virtual key names (when using macrolib) in layout designer and macro sequences. Click the ellipses and press the key on the device.
+ * KEY_102ND not mapped, so this key would not pass through (pipe key on UK keyboard).
+ * Volume control a bit better. Still not brilliant, but it needs some decent Java Pulse bindings
+   to work efficiently (or PipeWire in the future). 
+ * Support for Razer ARGB Controller. This also brings wider support for devices that consist of multiple configurable channels. Each channel may be individually resized, enabled or disabled, renamed and have a custom type of image.
+ * Breadcrumb bar as alternative navigation. This may be turned off to regain a little vertical space if you prefer.
+ * Global Effects bar that sets the same effect (where possible) on all devices.
+ * Improved filtering. Shift+Click or Ctrl+Click to include only or exclude only a device a type.
+ 
 # 1.0.0-SNAPSHOT-204
 
  * Added layout for Razer Base Station Chroma V2 .
